@@ -21,20 +21,20 @@
         </div>
       </div>
       <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
+        <!-- <div id="unity-webgl-logo"></div> -->
         <button id="entervr" value="Enter VR" disabled>VR</button>
-        <button id="enterar" value="Enter AR" disabled>AR</button>
-        <div id="unity-webxr-link">Using <a href="https://github.com/De-Panther/unity-webxr-export" target="_blank" title="WebXR Export">WebXR Export</a></div>
-        <div id="unity-build-title">Unity WebXR Export</div>
+        <!-- <button id="enterar" value="Enter AR" disabled>AR</button> -->
+        <!-- <div id="unity-webxr-link">Using <a href="https://github.com/De-Panther/unity-webxr-export" target="_blank" title="WebXR Export">WebXR Export</a></div> -->
+        <!-- <div id="unity-build-title">Unity WebXR Export</div> -->
       </div>
     </div>
     <script>
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/demo.loader.js";
       var config = {
-        dataUrl: buildUrl + "/demo.data",
-        frameworkUrl: buildUrl + "/demo.framework.js",
-        codeUrl: buildUrl + "/demo.wasm",
+        dataUrl: buildUrl + "/demo.data.gz",
+        frameworkUrl: buildUrl + "/demo.framework.js.gz",
+        codeUrl: buildUrl + "/demo.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "De-Panther",
         productName: "Unity WebXR Export",
