@@ -1,0 +1,3610 @@
+{
+  "extensionsUsed": [
+    "CVTOOLS_babylon_mesh",
+    "CVTOOLS_left_handed",
+    "CVTOOLS_unity_metadata"
+  ],
+  "extensionsRequired": [
+    "CVTOOLS_babylon_mesh",
+    "CVTOOLS_left_handed"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC3",
+      "max": [
+        5.0,
+        1.1102230246251565E-16,
+        5.0
+      ],
+      "min": [
+        -5.0,
+        -1.1102230246251565E-16,
+        -5.0
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "min": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC4",
+      "max": [
+        -1.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC2",
+      "max": [
+        0.78125,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.21875
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 600,
+      "type": "SCALAR",
+      "max": [
+        120.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC3",
+      "max": [
+        5.0,
+        1.1102230246251565E-16,
+        5.0
+      ],
+      "min": [
+        -5.0,
+        -1.1102230246251565E-16,
+        -5.0
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        1.0,
+        2.2204465786459051E-17
+      ],
+      "min": [
+        0.0,
+        0.99999994039535522,
+        2.22044558602917E-17
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC4",
+      "max": [
+        -1.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        -1.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 121,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5125,
+      "count": 600,
+      "type": "SCALAR",
+      "max": [
+        120.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.99997496604919434,
+        1.0,
+        0.9999769926071167
+      ],
+      "min": [
+        -0.99997496604919434,
+        -1.0,
+        -0.99997353553771973
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.056131001561880112,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.065983392298221588,
+        -1.0,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        0.99833369255065918,
+        0.98237103223800659
+      ],
+      "min": [
+        -0.00092136859893798828,
+        0.024108767509460449
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        1.0000003576278687,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.34614646434783936
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5125,
+      "count": 2304,
+      "type": "SCALAR",
+      "max": [
+        514.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.99997496604919434,
+        1.0,
+        0.9999769926071167
+      ],
+      "min": [
+        -0.99997496604919434,
+        -1.0,
+        -0.99997353553771973
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.056131001561880112,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.065983392298221588,
+        -1.0,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        0.99833369255065918,
+        0.98237103223800659
+      ],
+      "min": [
+        -0.00092136859893798828,
+        0.024108767509460449
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        1.0000003576278687,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.34614646434783936
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5125,
+      "count": 2304,
+      "type": "SCALAR",
+      "max": [
+        514.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 24,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 25,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.99997496604919434,
+        1.0,
+        0.9999769926071167
+      ],
+      "min": [
+        -0.99997496604919434,
+        -1.0,
+        -0.99997353553771973
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 26,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.056131001561880112,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.065983392298221588,
+        -1.0,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 27,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        0.99833369255065918,
+        0.98237103223800659
+      ],
+      "min": [
+        -0.00092136859893798828,
+        0.024108767509460449
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 28,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        1.0000003576278687,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.34614646434783936
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 29,
+      "componentType": 5125,
+      "count": 2304,
+      "type": "SCALAR",
+      "max": [
+        514.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 30,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 31,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.99997496604919434,
+        1.0,
+        0.9999769926071167
+      ],
+      "min": [
+        -0.99997496604919434,
+        -1.0,
+        -0.99997353553771973
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 32,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.056131001561880112,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.065983392298221588,
+        -1.0,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 33,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        0.99833369255065918,
+        0.98237103223800659
+      ],
+      "min": [
+        -0.00092136859893798828,
+        0.024108767509460449
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 34,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        1.0000003576278687,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.34614646434783936
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 35,
+      "componentType": 5125,
+      "count": 2304,
+      "type": "SCALAR",
+      "max": [
+        514.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 36,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 37,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.99997496604919434,
+        1.0,
+        0.9999769926071167
+      ],
+      "min": [
+        -0.99997496604919434,
+        -1.0,
+        -0.99997353553771973
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 38,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.056131001561880112,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.065983392298221588,
+        -1.0,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 39,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        0.99833369255065918,
+        0.98237103223800659
+      ],
+      "min": [
+        -0.00092136859893798828,
+        0.024108767509460449
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 40,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        1.0000003576278687,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.34614646434783936
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 41,
+      "componentType": 5125,
+      "count": 2304,
+      "type": "SCALAR",
+      "max": [
+        514.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 42,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 43,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.99997496604919434,
+        1.0,
+        0.9999769926071167
+      ],
+      "min": [
+        -0.99997496604919434,
+        -1.0,
+        -0.99997353553771973
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 44,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.056131001561880112,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.065983392298221588,
+        -1.0,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 45,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        0.99833369255065918,
+        0.98237103223800659
+      ],
+      "min": [
+        -0.00092136859893798828,
+        0.024108767509460449
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 46,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        1.0000003576278687,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.34614646434783936
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 47,
+      "componentType": 5125,
+      "count": 2304,
+      "type": "SCALAR",
+      "max": [
+        514.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 48,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 49,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.99997496604919434,
+        1.0,
+        0.9999769926071167
+      ],
+      "min": [
+        -0.99997496604919434,
+        -1.0,
+        -0.99997353553771973
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 50,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.056131001561880112,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.065983392298221588,
+        -1.0,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 51,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        0.99833369255065918,
+        0.98237103223800659
+      ],
+      "min": [
+        -0.00092136859893798828,
+        0.024108767509460449
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 52,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        1.0000003576278687,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.34614646434783936
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 53,
+      "componentType": 5125,
+      "count": 2304,
+      "type": "SCALAR",
+      "max": [
+        514.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 54,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 55,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.99997496604919434,
+        1.0,
+        0.9999769926071167
+      ],
+      "min": [
+        -0.99997496604919434,
+        -1.0,
+        -0.99997353553771973
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 56,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.056131001561880112,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.065983392298221588,
+        -1.0,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 57,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        0.99833369255065918,
+        0.98237103223800659
+      ],
+      "min": [
+        -0.00092136859893798828,
+        0.024108767509460449
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 58,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        1.0000003576278687,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.34614646434783936
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 59,
+      "componentType": 5125,
+      "count": 2304,
+      "type": "SCALAR",
+      "max": [
+        514.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 60,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 61,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.99997496604919434,
+        1.0,
+        0.9999769926071167
+      ],
+      "min": [
+        -0.99997496604919434,
+        -1.0,
+        -0.99997353553771973
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 62,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.056131001561880112,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.065983392298221588,
+        -1.0,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 63,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        0.99833369255065918,
+        0.98237103223800659
+      ],
+      "min": [
+        -0.00092136859893798828,
+        0.024108767509460449
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 64,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        1.0000003576278687,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.34614646434783936
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 65,
+      "componentType": 5125,
+      "count": 2304,
+      "type": "SCALAR",
+      "max": [
+        514.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    }
+  ],
+  "asset": {
+    "generator": "Babylon (2020.3.4f1)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "SampleScene.bin",
+      "byteLength": 360856
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1452
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1452,
+      "byteLength": 1452
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2904,
+      "byteLength": 1936
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4840,
+      "byteLength": 968
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5808,
+      "byteLength": 968
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6776,
+      "byteLength": 2400
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9176,
+      "byteLength": 1452
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 10628,
+      "byteLength": 1452
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12080,
+      "byteLength": 1936
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14016,
+      "byteLength": 968
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14984,
+      "byteLength": 968
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 15952,
+      "byteLength": 2400
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 18352,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 24532,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 30712,
+      "byteLength": 8240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 38952,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 43072,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 47192,
+      "byteLength": 9216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 56408,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 62588,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 68768,
+      "byteLength": 8240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 77008,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 81128,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 85248,
+      "byteLength": 9216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 94464,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 100644,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 106824,
+      "byteLength": 8240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 115064,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 119184,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 123304,
+      "byteLength": 9216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 132520,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 138700,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 144880,
+      "byteLength": 8240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 153120,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 157240,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 161360,
+      "byteLength": 9216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 170576,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 176756,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 182936,
+      "byteLength": 8240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 191176,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 195296,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 199416,
+      "byteLength": 9216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 208632,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 214812,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 220992,
+      "byteLength": 8240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 229232,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 233352,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 237472,
+      "byteLength": 9216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 246688,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 252868,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 259048,
+      "byteLength": 8240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 267288,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 271408,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 275528,
+      "byteLength": 9216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 284744,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 290924,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 297104,
+      "byteLength": 8240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 305344,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 309464,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 313584,
+      "byteLength": 9216
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 322800,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 328980,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 335160,
+      "byteLength": 8240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 343400,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 347520,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 351640,
+      "byteLength": 9216
+    }
+  ],
+  "images": [
+    {
+      "uri": "assets/babylon/images/Grid.png",
+      "name": "Grid"
+    },
+    {
+      "uri": "assets/d71152629a0450acb42bf4a44595dfed1.png",
+      "name": "d71152629a0450acb42bf4a44595dfed 1"
+    },
+    {
+      "uri": "assets/SampleScene_Lightmap-0_comp_light.png",
+      "name": "SampleScene_Lightmap-0_comp_light"
+    },
+    {
+      "uri": "assets/babylon/images/Amiga.png",
+      "name": "Amiga"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "normalTexture": {
+        "scale": 1.0,
+        "index": 1,
+        "texCoord": 0
+      },
+      "name": "M_Grid",
+      "extras": {
+        "metadata": {
+          "alphaMode": 2,
+          "alphaFade": false,
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "detailBlendLevel": 0.75,
+          "detailBumpLevel": 1.0,
+          "detailRoughLevel": 0.5,
+          "lightmapLevel": 1.0,
+          "backFaceCulling": true,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useExpandedLightmapTexture": false,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": true,
+          "useAlphaFromAlbedoTexture": false,
+          "hasAlbedoTextureChannel": false,
+          "maxSimultaneousLights": 4,
+          "indexOfRefraction": 1.5,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "reflectionColorFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "lightmapTexture": {
+            "index": 2,
+            "texCoord": 1
+          }
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.5225216,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Collider-Material",
+      "extras": {
+        "metadata": {
+          "alphaMode": 2,
+          "alphaFade": false,
+          "useWireframe": true,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "detailBlendLevel": 0.75,
+          "detailBumpLevel": 1.0,
+          "detailRoughLevel": 0.5,
+          "lightmapLevel": 1.0,
+          "backFaceCulling": true,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useExpandedLightmapTexture": false,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": true,
+          "useAlphaFromAlbedoTexture": false,
+          "hasAlbedoTextureChannel": false,
+          "maxSimultaneousLights": 4,
+          "indexOfRefraction": 1.5,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "reflectionColorFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.136869952,
+          0.136869952,
+          0.136869952,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 3,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.43800002336502075
+      },
+      "name": "M_Reflective",
+      "extras": {
+        "metadata": {
+          "alphaMode": 2,
+          "alphaFade": false,
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "detailBlendLevel": 0.75,
+          "detailBumpLevel": 1.0,
+          "detailRoughLevel": 0.5,
+          "lightmapLevel": 1.0,
+          "backFaceCulling": true,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useExpandedLightmapTexture": false,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": true,
+          "useAlphaFromAlbedoTexture": false,
+          "hasAlbedoTextureChannel": false,
+          "maxSimultaneousLights": 4,
+          "indexOfRefraction": 1.5,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "reflectionColorFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "Plane"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
+          },
+          "indices": 11,
+          "material": 1
+        }
+      ],
+      "name": "Plane"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TANGENT": 14,
+            "TEXCOORD_0": 15,
+            "TEXCOORD_1": 16
+          },
+          "indices": 17,
+          "material": 2
+        }
+      ],
+      "name": "Sphere (1)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 18,
+            "NORMAL": 19,
+            "TANGENT": 20,
+            "TEXCOORD_0": 21,
+            "TEXCOORD_1": 22
+          },
+          "indices": 23,
+          "material": 2
+        }
+      ],
+      "name": "Sphere (2)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 24,
+            "NORMAL": 25,
+            "TANGENT": 26,
+            "TEXCOORD_0": 27,
+            "TEXCOORD_1": 28
+          },
+          "indices": 29,
+          "material": 2
+        }
+      ],
+      "name": "Sphere (3)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 30,
+            "NORMAL": 31,
+            "TANGENT": 32,
+            "TEXCOORD_0": 33,
+            "TEXCOORD_1": 34
+          },
+          "indices": 35,
+          "material": 2
+        }
+      ],
+      "name": "Sphere (4)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 36,
+            "NORMAL": 37,
+            "TANGENT": 38,
+            "TEXCOORD_0": 39,
+            "TEXCOORD_1": 40
+          },
+          "indices": 41,
+          "material": 2
+        }
+      ],
+      "name": "Sphere (5)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 42,
+            "NORMAL": 43,
+            "TANGENT": 44,
+            "TEXCOORD_0": 45,
+            "TEXCOORD_1": 46
+          },
+          "indices": 47,
+          "material": 2
+        }
+      ],
+      "name": "Sphere (6)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 48,
+            "NORMAL": 49,
+            "TANGENT": 50,
+            "TEXCOORD_0": 51,
+            "TEXCOORD_1": 52
+          },
+          "indices": 53,
+          "material": 2
+        }
+      ],
+      "name": "Sphere (7)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 54,
+            "NORMAL": 55,
+            "TANGENT": 56,
+            "TEXCOORD_0": 57,
+            "TEXCOORD_1": 58
+          },
+          "indices": 59,
+          "material": 2
+        }
+      ],
+      "name": "Sphere (8)"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 60,
+            "NORMAL": 61,
+            "TANGENT": 62,
+            "TEXCOORD_0": 63,
+            "TEXCOORD_1": 64
+          },
+          "indices": 65,
+          "material": 2
+        }
+      ],
+      "name": "Sphere (9)"
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Scene Controller",
+      "extras": {
+        "metadata": {
+          "guid": "de124b7a-e1d2-4b86-a609-fce25dd4c277",
+          "components": [
+            {
+              "alias": "script",
+              "order": -10,
+              "klass": "PROJECT.DebugInformation",
+              "properties": {
+                "inspectorKeyIsI": true,
+                "enableDebugKeys": true,
+                "showDebugLabels": true,
+                "popupDebugPanel": true,
+                "togglePlayerViews": false,
+                "allowXboxLiveSignIn": false,
+                "debugOutputTextColor": {
+                  "r": 0.0,
+                  "g": 1.0,
+                  "b": 0.0,
+                  "a": 1.0
+                }
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.408217877,
+        -0.234569684,
+        0.109381631,
+        0.8754261
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        0.99999994
+      ],
+      "translation": [
+        1.04,
+        2.14,
+        -1.91
+      ],
+      "name": "Directional Light",
+      "extras": {
+        "metadata": {
+          "guid": "5349fba0-38ed-45b4-97db-df3128b80111",
+          "components": [
+            {
+              "alias": "light",
+              "type": 2,
+              "range": 10.0,
+              "culling": -1,
+              "clearflags": 0,
+              "renderlist": null,
+              "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "specular": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "intensity": 9.0,
+              "spotangle": 145.838181,
+              "orthoscale": 0.1,
+              "autorender": true,
+              "numcascades": 4,
+              "calczbounds": false,
+              "updateextends": false,
+              "ortholeft": 1.7976931348623157E+308,
+              "orthoright": 1.7976931348623157E+308,
+              "orthotop": 1.7976931348623157E+308,
+              "orthobottom": 1.7976931348623157E+308,
+              "softshadows": true,
+              "shadowmapsize": 2048,
+              "shadowquality": "High",
+              "generateshadows": true,
+              "shadowdistance": 150.0,
+              "shadowstrength": 1.0,
+              "shadowbiasfactor": 0.01,
+              "normalbiasfactor": 0.0,
+              "shadowmapbias": 0.0,
+              "normalmapbias": 1.25,
+              "shadownearplane": 0.1,
+              "cascadelambda": 1.0,
+              "twocascadesplit": 0.333333343,
+              "fourcascadesplit": [
+                0.06666667,
+                0.2,
+                0.466666669
+              ],
+              "blendpertecntage": 1E-08,
+              "boundsrefreshrate": 1,
+              "lightcontactratio": 0.1,
+              "stabilizecascades": false,
+              "exponentdecayspeed": 1.0,
+              "penumbradarkness": 1.0,
+              "softshadowsfilter": 99,
+              "freezeshadows": false,
+              "setdepthclamp": false,
+              "calcdepths": false,
+              "depthscaling": 50.0,
+              "kernelblur": false,
+              "blurscaling": 2.0,
+              "blurkernelsize": 1.0,
+              "blurboxoffset": 1.0,
+              "shadowfrustumsize": 0.0,
+              "frustumedgefalloff": 0.0,
+              "forcebackfacesonly": false,
+              "transparencyshadow": false,
+              "softtransparency": false,
+              "shadowfilterquality": "Medium",
+              "usefullfloatfirst": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "translation": [
+        0.0,
+        -0.01,
+        -3.03
+      ],
+      "name": "Main Camera",
+      "extras": {
+        "metadata": {
+          "guid": "d1631e98-0957-4d49-908d-d0bcb32fb51c",
+          "group": "MainCamera",
+          "tags": "MainCamera Layer0",
+          "components": [
+            {
+              "alias": "camera",
+              "type": 0,
+              "culling": -1,
+              "clearflags": 1,
+              "renderlist": null,
+              "maincamera": true,
+              "perspectiveyfov": 1.04719758,
+              "perspectiveaspect": 1.821246,
+              "perspectivezfar": 2011,
+              "perspectiveznear": 0.3
+            },
+            {
+              "alias": "script",
+              "order": -100,
+              "klass": "PROJECT.UniversalCameraSystem",
+              "properties": {
+                "mainCameraType": 0,
+                "setCameraInertia": 0.5,
+                "cameraController": {
+                  "attachControl": true,
+                  "preventDefault": false,
+                  "disableTouches": false,
+                  "checkCollisions": false,
+                  "setApplyGravity": false
+                },
+                "immersiveOptions": {
+                  "optionalFeatures": true,
+                  "useStablePlugins": true,
+                  "localStorageOption": false,
+                  "ignoreNativeCamera": false,
+                  "disableUserInterface": false,
+                  "disablePointerSelect": false,
+                  "renderingGroupNum": 0,
+                  "setFloorMeshesTags": "Navigation",
+                  "referenceSpaceType": 2,
+                  "experienceInputOptions": {
+                    "disableMeshLoad": false,
+                    "disableRepository": false,
+                    "customRepository": "",
+                    "forceInputProfile": "",
+                    "disableModelAnim": false,
+                    "controllerOptions": {
+                      "disableCtrlAnim": false,
+                      "disableCtrlMesh": false,
+                      "forceCtrlProfile": ""
+                    }
+                  },
+                  "defaultTeleportationSetup": {
+                    "useTeleportation": true,
+                    "rotationsEnabled": true,
+                    "backwardsEnabled": true,
+                    "backwardsDistance": 1.0,
+                    "turningAxisAngle": 22.5,
+                    "parabolicRadius": 5.0
+                  }
+                },
+                "multiPlayerSetup": {
+                  "playerStartupMode": 1,
+                  "stereoSideBySide": true
+                },
+                "renderingPipeline": {
+                  "usePostProcessing": true,
+                  "highDynamicRange": true,
+                  "screenAntiAliasing": {
+                    "msaaSamples": 1,
+                    "fxaaEnabled": true,
+                    "fxaaScaling": false,
+                    "fxaaSamples": 1
+                  },
+                  "focalDepthOfField": {
+                    "depthOfField": false,
+                    "blurLevel": 0.0,
+                    "focalStop": 1.4,
+                    "focalLength": 50,
+                    "focusDistance": 2000,
+                    "maxLensSize": 50
+                  },
+                  "chromaticAberration": {
+                    "aberrationEnabled": false,
+                    "aberrationAmount": 30,
+                    "adaptScaleViewport": false,
+                    "alphaMode": 0,
+                    "alwaysForcePOT": false,
+                    "pixelPerfectMode": false,
+                    "fullscreenViewport": true
+                  },
+                  "glowLayerProperties": {
+                    "glowEnabled": true,
+                    "glowIntensity": 1,
+                    "blurKernelSize": 16
+                  },
+                  "grainEffectProperties": {
+                    "grainEnabled": false,
+                    "grainAnimated": false,
+                    "grainIntensity": 30,
+                    "adaptScaleViewport": false
+                  },
+                  "sharpEffectProperties": {
+                    "sharpenEnabled": false,
+                    "sharpEdgeAmount": 0.3,
+                    "sharpColorAmount": 1.0,
+                    "adaptScaleViewport": false
+                  },
+                  "bloomEffectProperties": {
+                    "bloomEnabled": true,
+                    "bloomKernel": 64,
+                    "bloomScale": 0.5,
+                    "bloomWeight": 0.15,
+                    "bloomThreshold": 0.9
+                  },
+                  "imageProcessingConfig": {
+                    "imageProcessing": true,
+                    "imageContrast": 1.0,
+                    "imageExposure": 1.0,
+                    "vignetteEnabled": true,
+                    "vignetteBlendMode": 0,
+                    "vignetteCameraFov": 0.5,
+                    "vignetteStretch": 0.0,
+                    "vignetteCentreX": 0.0,
+                    "vignetteCentreY": 0.0,
+                    "vignetteWeight": 1.5,
+                    "vignetteColor": {
+                      "r": 0.0,
+                      "g": 0.0,
+                      "b": 0.0,
+                      "a": 0.0
+                    },
+                    "useColorGrading": true,
+                    "setGradingTexture": null,
+                    "imagingColorCurves": {
+                      "curvesEnabled": true,
+                      "globalDen": 0.0,
+                      "globalExp": 0.0,
+                      "globalHue": 30.0,
+                      "globalSat": 0.0,
+                      "highlightsDen": 0.0,
+                      "highlightsExp": 0.0,
+                      "highlightsHue": 30.0,
+                      "highlightsSat": 0.0,
+                      "midtonesDen": 0.0,
+                      "midtonesExp": 0.0,
+                      "midtonesHue": 30.0,
+                      "midtonesSat": 0.0,
+                      "shadowsDen": 80.0,
+                      "shadowsExp": 0.0,
+                      "shadowsHue": 30.0,
+                      "shadowsSat": 0.0
+                    }
+                  }
+                }
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "children": [
+        4
+      ],
+      "mesh": 1,
+      "translation": [
+        0.155433416,
+        -0.646,
+        0.0129004717
+      ],
+      "name": "Plane",
+      "extras": {
+        "metadata": {
+          "guid": "2f6aac4b-68a5-4630-ad2c-b5bdf5eac608",
+          "visible": false,
+          "visibility": 0.5,
+          "navigation": {
+            "area": 0,
+            "links": null
+          },
+          "lightmapped": true,
+          "tags": "Untagged NavigationStatic Layer0",
+          "physics": {
+            "type": "rigidbody",
+            "root": false,
+            "mass": 0,
+            "ldrag": 0,
+            "adrag": 0.05,
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "freeze": {
+              "positionx": false,
+              "positiony": false,
+              "positionz": false,
+              "rotationx": false,
+              "rotationy": false,
+              "rotationz": false
+            },
+            "gravity": false
+          },
+          "collision": {
+            "type": "MeshCollider",
+            "entity": "Plane",
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "trigger": false,
+            "boxsize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "segments": 24,
+            "compound": false,
+            "convexmesh": false,
+            "capsulesize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "sphereradius": 0.0,
+            "restitution": 0.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": null
+          },
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": true,
+            "freezeworldmatrix": true,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          },
+          "components": [
+            {
+              "alias": "script",
+              "order": -1,
+              "klass": "BABYLON.RigidbodyPhysics",
+              "properties": {
+                "mass": 0,
+                "drag": 0,
+                "angularDrag": 0.05,
+                "useGravity": false,
+                "isKinematic": true
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "mesh": 0,
+      "name": "Plane.Detail",
+      "extras": {
+        "metadata": {
+          "guid": "2f6aac4b-68a5-4630-ad2c-b5bdf5eac608",
+          "navigation": {
+            "area": 0,
+            "links": null
+          },
+          "lightmapped": true,
+          "tags": "DetailMesh NavigationStatic Layer0",
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": true,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        -1.56999993,
+        5.06999969,
+        0.459999979
+      ],
+      "name": "Sphere (1)",
+      "extras": {
+        "metadata": {
+          "guid": "92902578-94d0-4182-a301-7d15381ded99",
+          "buffers": {
+            "floats": [],
+            "colors": [],
+            "vector2": [],
+            "vector3": [],
+            "vector4": []
+          },
+          "physics": {
+            "type": "rigidbody",
+            "root": false,
+            "mass": 1.0,
+            "ldrag": 0.0,
+            "adrag": 0.05,
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "freeze": {
+              "positionx": false,
+              "positiony": false,
+              "positionz": false,
+              "rotationx": false,
+              "rotationy": false,
+              "rotationz": false
+            },
+            "gravity": true
+          },
+          "collision": {
+            "type": "SphereCollider",
+            "entity": "Sphere (1)",
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "trigger": false,
+            "boxsize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "segments": 24,
+            "compound": false,
+            "convexmesh": false,
+            "capsulesize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "sphereradius": 0.5,
+            "restitution": 1.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": null
+          },
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": true,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          },
+          "components": [
+            {
+              "alias": "script",
+              "order": -1,
+              "klass": "BABYLON.RigidbodyPhysics",
+              "properties": {
+                "mass": 1.0,
+                "drag": 0.0,
+                "angularDrag": 0.05,
+                "useGravity": true,
+                "isKinematic": false
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.228944957,
+        0.8612832,
+        0.076957,
+        0.447049379
+      ],
+      "scale": [
+        1.00000012,
+        1.0,
+        1.00000012
+      ],
+      "translation": [
+        -2.92,
+        1.36,
+        3.3
+      ],
+      "name": "Directional Light (1)",
+      "extras": {
+        "metadata": {
+          "guid": "c917b734-8a58-4c10-a491-a9638aee3930",
+          "components": [
+            {
+              "alias": "light",
+              "type": 2,
+              "range": 10.0,
+              "culling": -1,
+              "clearflags": 0,
+              "renderlist": null,
+              "color": {
+                "r": 0.0,
+                "g": 0.519655943,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "specular": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "intensity": 25.0,
+              "spotangle": 166.3,
+              "orthoscale": 0.1,
+              "autorender": true,
+              "numcascades": 4,
+              "calczbounds": false,
+              "updateextends": false,
+              "ortholeft": 1.7976931348623157E+308,
+              "orthoright": 1.7976931348623157E+308,
+              "orthotop": 1.7976931348623157E+308,
+              "orthobottom": 1.7976931348623157E+308,
+              "softshadows": true,
+              "shadowmapsize": 2048,
+              "shadowquality": "High",
+              "generateshadows": true,
+              "shadowdistance": 150.0,
+              "shadowstrength": 1.0,
+              "shadowbiasfactor": 0.01,
+              "normalbiasfactor": 0.0,
+              "shadowmapbias": 0.0,
+              "normalmapbias": 1.25,
+              "shadownearplane": 0.1,
+              "cascadelambda": 1.0,
+              "twocascadesplit": 0.333333343,
+              "fourcascadesplit": [
+                0.06666667,
+                0.2,
+                0.466666669
+              ],
+              "blendpertecntage": 1E-08,
+              "boundsrefreshrate": 1,
+              "lightcontactratio": 0.1,
+              "stabilizecascades": false,
+              "exponentdecayspeed": 1.0,
+              "penumbradarkness": 1.0,
+              "softshadowsfilter": 99,
+              "freezeshadows": false,
+              "setdepthclamp": false,
+              "calcdepths": false,
+              "depthscaling": 50.0,
+              "kernelblur": false,
+              "blurscaling": 2.0,
+              "blurkernelsize": 1.0,
+              "blurboxoffset": 1.0,
+              "shadowfrustumsize": 0.0,
+              "frustumedgefalloff": 0.0,
+              "forcebackfacesonly": false,
+              "transparencyshadow": false,
+              "softtransparency": false,
+              "shadowfilterquality": "Medium",
+              "usefullfloatfirst": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "mesh": 3,
+      "translation": [
+        -0.45,
+        5.06999969,
+        -0.46
+      ],
+      "name": "Sphere (2)",
+      "extras": {
+        "metadata": {
+          "guid": "e9c5ae1d-e83b-481b-9458-a94357f8a9ed",
+          "buffers": {
+            "floats": [],
+            "colors": [],
+            "vector2": [],
+            "vector3": [],
+            "vector4": []
+          },
+          "physics": {
+            "type": "rigidbody",
+            "root": false,
+            "mass": 1.0,
+            "ldrag": 0.0,
+            "adrag": 0.05,
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "freeze": {
+              "positionx": false,
+              "positiony": false,
+              "positionz": false,
+              "rotationx": false,
+              "rotationy": false,
+              "rotationz": false
+            },
+            "gravity": true
+          },
+          "collision": {
+            "type": "SphereCollider",
+            "entity": "Sphere (2)",
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "trigger": false,
+            "boxsize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "segments": 24,
+            "compound": false,
+            "convexmesh": false,
+            "capsulesize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "sphereradius": 0.5,
+            "restitution": 1.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": null
+          },
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": true,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          },
+          "components": [
+            {
+              "alias": "script",
+              "order": -1,
+              "klass": "BABYLON.RigidbodyPhysics",
+              "properties": {
+                "mass": 1.0,
+                "drag": 0.0,
+                "angularDrag": 0.05,
+                "useGravity": true,
+                "isKinematic": false
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "mesh": 4,
+      "translation": [
+        1.02,
+        5.06999969,
+        -0.46
+      ],
+      "name": "Sphere (3)",
+      "extras": {
+        "metadata": {
+          "guid": "e931cf1d-d969-4ee3-8413-1afe2898e927",
+          "buffers": {
+            "floats": [],
+            "colors": [],
+            "vector2": [],
+            "vector3": [],
+            "vector4": []
+          },
+          "physics": {
+            "type": "rigidbody",
+            "root": false,
+            "mass": 1.0,
+            "ldrag": 0.0,
+            "adrag": 0.05,
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "freeze": {
+              "positionx": false,
+              "positiony": false,
+              "positionz": false,
+              "rotationx": false,
+              "rotationy": false,
+              "rotationz": false
+            },
+            "gravity": true
+          },
+          "collision": {
+            "type": "SphereCollider",
+            "entity": "Sphere (3)",
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "trigger": false,
+            "boxsize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "segments": 24,
+            "compound": false,
+            "convexmesh": false,
+            "capsulesize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "sphereradius": 0.5,
+            "restitution": 1.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": null
+          },
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": true,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          },
+          "components": [
+            {
+              "alias": "script",
+              "order": -1,
+              "klass": "BABYLON.RigidbodyPhysics",
+              "properties": {
+                "mass": 1.0,
+                "drag": 0.0,
+                "angularDrag": 0.05,
+                "useGravity": true,
+                "isKinematic": false
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "mesh": 5,
+      "translation": [
+        -0.97,
+        6.12999964,
+        0.0
+      ],
+      "name": "Sphere (4)",
+      "extras": {
+        "metadata": {
+          "guid": "2a18d5c4-f3fa-4e23-8de8-fd33dba8b479",
+          "buffers": {
+            "floats": [],
+            "colors": [],
+            "vector2": [],
+            "vector3": [],
+            "vector4": []
+          },
+          "physics": {
+            "type": "rigidbody",
+            "root": false,
+            "mass": 1.0,
+            "ldrag": 0.0,
+            "adrag": 0.05,
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "freeze": {
+              "positionx": false,
+              "positiony": false,
+              "positionz": false,
+              "rotationx": false,
+              "rotationy": false,
+              "rotationz": false
+            },
+            "gravity": true
+          },
+          "collision": {
+            "type": "SphereCollider",
+            "entity": "Sphere (4)",
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "trigger": false,
+            "boxsize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "segments": 24,
+            "compound": false,
+            "convexmesh": false,
+            "capsulesize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "sphereradius": 0.5,
+            "restitution": 1.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": null
+          },
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": true,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          },
+          "components": [
+            {
+              "alias": "script",
+              "order": -1,
+              "klass": "BABYLON.RigidbodyPhysics",
+              "properties": {
+                "mass": 1.0,
+                "drag": 0.0,
+                "angularDrag": 0.05,
+                "useGravity": true,
+                "isKinematic": false
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "mesh": 6,
+      "translation": [
+        0.459999979,
+        6.12999964,
+        0.459999979
+      ],
+      "name": "Sphere (5)",
+      "extras": {
+        "metadata": {
+          "guid": "7b0d7894-864b-4dec-a1b1-af4a4c165cfd",
+          "buffers": {
+            "floats": [],
+            "colors": [],
+            "vector2": [],
+            "vector3": [],
+            "vector4": []
+          },
+          "physics": {
+            "type": "rigidbody",
+            "root": false,
+            "mass": 1.0,
+            "ldrag": 0.0,
+            "adrag": 0.05,
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "freeze": {
+              "positionx": false,
+              "positiony": false,
+              "positionz": false,
+              "rotationx": false,
+              "rotationy": false,
+              "rotationz": false
+            },
+            "gravity": true
+          },
+          "collision": {
+            "type": "SphereCollider",
+            "entity": "Sphere (5)",
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "trigger": false,
+            "boxsize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "segments": 24,
+            "compound": false,
+            "convexmesh": false,
+            "capsulesize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "sphereradius": 0.5,
+            "restitution": 1.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": null
+          },
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": true,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          },
+          "components": [
+            {
+              "alias": "script",
+              "order": -1,
+              "klass": "BABYLON.RigidbodyPhysics",
+              "properties": {
+                "mass": 1.0,
+                "drag": 0.0,
+                "angularDrag": 0.05,
+                "useGravity": true,
+                "isKinematic": false
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "mesh": 7,
+      "translation": [
+        1.73,
+        6.12999964,
+        0.0
+      ],
+      "name": "Sphere (6)",
+      "extras": {
+        "metadata": {
+          "guid": "bbda70d2-fc0e-4076-b0cd-9025a40e2682",
+          "buffers": {
+            "floats": [],
+            "colors": [],
+            "vector2": [],
+            "vector3": [],
+            "vector4": []
+          },
+          "physics": {
+            "type": "rigidbody",
+            "root": false,
+            "mass": 1.0,
+            "ldrag": 0.0,
+            "adrag": 0.05,
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "freeze": {
+              "positionx": false,
+              "positiony": false,
+              "positionz": false,
+              "rotationx": false,
+              "rotationy": false,
+              "rotationz": false
+            },
+            "gravity": true
+          },
+          "collision": {
+            "type": "SphereCollider",
+            "entity": "Sphere (6)",
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "trigger": false,
+            "boxsize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "segments": 24,
+            "compound": false,
+            "convexmesh": false,
+            "capsulesize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "sphereradius": 0.5,
+            "restitution": 1.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": null
+          },
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": true,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          },
+          "components": [
+            {
+              "alias": "script",
+              "order": -1,
+              "klass": "BABYLON.RigidbodyPhysics",
+              "properties": {
+                "mass": 1.0,
+                "drag": 0.0,
+                "angularDrag": 0.05,
+                "useGravity": true,
+                "isKinematic": false
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "mesh": 8,
+      "rotation": [
+        0.0,
+        0.17688109,
+        0.0,
+        0.9842323
+      ],
+      "translation": [
+        -1.62,
+        7.43,
+        -0.96
+      ],
+      "name": "Sphere (7)",
+      "extras": {
+        "metadata": {
+          "guid": "e76b94db-6671-4b27-9288-6a9b5c656605",
+          "buffers": {
+            "floats": [],
+            "colors": [],
+            "vector2": [],
+            "vector3": [],
+            "vector4": []
+          },
+          "physics": {
+            "type": "rigidbody",
+            "root": false,
+            "mass": 1.0,
+            "ldrag": 0.0,
+            "adrag": 0.05,
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "freeze": {
+              "positionx": false,
+              "positiony": false,
+              "positionz": false,
+              "rotationx": false,
+              "rotationy": false,
+              "rotationz": false
+            },
+            "gravity": true
+          },
+          "collision": {
+            "type": "SphereCollider",
+            "entity": "Sphere (7)",
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "trigger": false,
+            "boxsize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "segments": 24,
+            "compound": false,
+            "convexmesh": false,
+            "capsulesize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "sphereradius": 0.5,
+            "restitution": 1.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": null
+          },
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": true,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          },
+          "components": [
+            {
+              "alias": "script",
+              "order": -1,
+              "klass": "BABYLON.RigidbodyPhysics",
+              "properties": {
+                "mass": 1.0,
+                "drag": 0.0,
+                "angularDrag": 0.05,
+                "useGravity": true,
+                "isKinematic": false
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "mesh": 9,
+      "rotation": [
+        0.0,
+        0.17688109,
+        0.0,
+        0.9842323
+      ],
+      "translation": [
+        -0.19,
+        7.43,
+        -0.5
+      ],
+      "name": "Sphere (8)",
+      "extras": {
+        "metadata": {
+          "guid": "1d23cadb-951b-4e99-afe2-975568537cf2",
+          "buffers": {
+            "floats": [],
+            "colors": [],
+            "vector2": [],
+            "vector3": [],
+            "vector4": []
+          },
+          "physics": {
+            "type": "rigidbody",
+            "root": false,
+            "mass": 1.0,
+            "ldrag": 0.0,
+            "adrag": 0.05,
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "freeze": {
+              "positionx": false,
+              "positiony": false,
+              "positionz": false,
+              "rotationx": false,
+              "rotationy": false,
+              "rotationz": false
+            },
+            "gravity": true
+          },
+          "collision": {
+            "type": "SphereCollider",
+            "entity": "Sphere (8)",
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "trigger": false,
+            "boxsize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "segments": 24,
+            "compound": false,
+            "convexmesh": false,
+            "capsulesize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "sphereradius": 0.5,
+            "restitution": 1.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": null
+          },
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": true,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          },
+          "components": [
+            {
+              "alias": "script",
+              "order": -1,
+              "klass": "BABYLON.RigidbodyPhysics",
+              "properties": {
+                "mass": 1.0,
+                "drag": 0.0,
+                "angularDrag": 0.05,
+                "useGravity": true,
+                "isKinematic": false
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "mesh": 10,
+      "rotation": [
+        0.0,
+        0.17688109,
+        0.0,
+        0.9842323
+      ],
+      "translation": [
+        1.08,
+        7.43,
+        -0.96
+      ],
+      "name": "Sphere (9)",
+      "extras": {
+        "metadata": {
+          "guid": "f54f36b5-8dea-44f3-82aa-7649ee146786",
+          "buffers": {
+            "floats": [],
+            "colors": [],
+            "vector2": [],
+            "vector3": [],
+            "vector4": []
+          },
+          "physics": {
+            "type": "rigidbody",
+            "root": false,
+            "mass": 1.0,
+            "ldrag": 0.0,
+            "adrag": 0.05,
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "freeze": {
+              "positionx": false,
+              "positiony": false,
+              "positionz": false,
+              "rotationx": false,
+              "rotationy": false,
+              "rotationz": false
+            },
+            "gravity": true
+          },
+          "collision": {
+            "type": "SphereCollider",
+            "entity": "Sphere (9)",
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "trigger": false,
+            "boxsize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "segments": 24,
+            "compound": false,
+            "convexmesh": false,
+            "capsulesize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "sphereradius": 0.5,
+            "restitution": 1.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": null
+          },
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": true,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          },
+          "components": [
+            {
+              "alias": "script",
+              "order": -1,
+              "klass": "BABYLON.RigidbodyPhysics",
+              "properties": {
+                "mass": 1.0,
+                "drag": 0.0,
+                "angularDrag": 0.05,
+                "useGravity": true,
+                "isKinematic": false
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985,
+      "WrapS": 33071,
+      "WrapT": 33071
+    },
+    {
+      "minFilter": 9985
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "name": "SampleScene",
+      "extras": {
+        "metadata": {
+          "gltf": true,
+          "intensity": 1.0,
+          "debugging": false,
+          "properties": true,
+          "disposeroot": false,
+          "ktxtextures": false,
+          "rendergroups": 4,
+          "rawmaterials": [],
+          "script": "babylon02",
+          "project": "Babylon02.js",
+          "filename": "SampleScene",
+          "prewarmup": 0.0,
+          "hideloader": true,
+          "exposure": 1,
+          "tonemapping": 0,
+          "gammacorrection": 1,
+          "trianglenormals": true,
+          "deltaworldstep": true,
+          "subtimestep": 0.0,
+          "pointerlock": false,
+          "preventdefault": false,
+          "ccdpenetration": 0.0,
+          "ccdenabled": true,
+          "maxworldsweep": 0,
+          "enableinput": true,
+          "usecapture": false,
+          "userinput": {
+            "padDeadStick": 0.25,
+            "padLStickXInvert": false,
+            "padLStickYInvert": false,
+            "padRStickXInvert": false,
+            "padRStickYInvert": true,
+            "padLStickLevel": 1.0,
+            "padRStickLevel": 1.0,
+            "wheelDeadZone": 0.1,
+            "mouseDeadZone": 0.1,
+            "mouseSensitivity": 0.5,
+            "mouseMoveInvert": true,
+            "arrowKeyRotation": true,
+            "useCanvasElement": true,
+            "joystickInputMode": 0,
+            "disableRightStick": false,
+            "joystickDeadStick": 0.1,
+            "joystickLeftLevel": 1.0,
+            "joystickRightLevel": 1.0,
+            "joystickRightColor": {
+              "r": 1.0,
+              "g": 0.921568632,
+              "b": 0.0156862754,
+              "a": 1.0
+            },
+            "keyboardSmoothing": false,
+            "keyboardSensitivity": 3.0,
+            "keyboardDeadZone": 0.001,
+            "joystickRightColorText": "#FFEB04",
+            "joystickInputValue": 0
+          },
+          "showdebugcolliders": false,
+          "collidervisibility": 0.5,
+          "colliderrendergroup": 0,
+          "collisionwireframe": true,
+          "navigation": {
+            "prebaked": null,
+            "tilecount": 0,
+            "collision": false,
+            "showdebug": false,
+            "debugcolor": [
+              0.05,
+              0.225,
+              0.75,
+              1.0
+            ],
+            "timesteps": 0.0,
+            "areatable": [
+              {
+                "index": 0,
+                "area": "Walkable",
+                "cost": 1.0
+              },
+              {
+                "index": 1,
+                "area": "Not Walkable",
+                "cost": 1.0
+              },
+              {
+                "index": 2,
+                "area": "Jump",
+                "cost": 2.0
+              }
+            ],
+            "bakeprops": {
+              "cs": 0.3,
+              "ch": 0.2,
+              "walkableradius": 0,
+              "walkableheight": 0,
+              "walkableslopeangle": 90.0,
+              "walkableclimb": 5,
+              "maxedgelen": 12,
+              "minregionarea": 2,
+              "mergeregionarea": 20,
+              "maxsimplificationerror": 1.3,
+              "maxvertsperpoly": 6,
+              "detailsampledist": 6.0,
+              "detailsamplemaxerror": 1.0
+            },
+            "offmeshlinks": null
+          },
+          "autoclear": true,
+          "clearcolor": {
+            "r": 0.192156866,
+            "g": 0.3019608,
+            "b": 0.4745098,
+            "a": 1.0
+          },
+          "sunposition": {
+            "x": 1.04,
+            "y": 50.0,
+            "z": -1.91
+          },
+          "sunrotation": {
+            "x": 0.408217877,
+            "y": -0.234569684,
+            "z": 0.109381631,
+            "w": 0.8754261
+          },
+          "enablephysics": true,
+          "defaultgravity": {
+            "x": 0.0,
+            "y": -9.81,
+            "z": 0.0
+          },
+          "freezeactivemeshes": true,
+          "imageprocessing": {
+            "contrast": 1.0,
+            "exposure": 1.0
+          },
+          "ambientlightintensity": 1.0,
+          "ambientspecularcolor": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "ambientgroundcolor": {
+            "r": 0.575300157,
+            "g": 0.567777157,
+            "b": 0.5606284,
+            "a": 1.0
+          },
+          "ambientskycolor": {
+            "r": 0.569617867,
+            "g": 0.609120965,
+            "b": 0.6881134,
+            "a": 1.0
+          },
+          "ambientcoloring": {
+            "r": 0.3,
+            "g": 0.3,
+            "b": 0.3,
+            "a": 1.0
+          },
+          "ambientlighting": 1,
+          "fogtype": "None",
+          "fogmode": 0,
+          "fogdensity": 0.01,
+          "fogcolor": {
+            "r": 0.5,
+            "g": 0.5,
+            "b": 0.5,
+            "a": 1.0
+          },
+          "fogstart": 0.0,
+          "fogend": 300.0,
+          "skybox": {
+            "skyfog": false,
+            "skytags": "",
+            "skysize": 2000.0,
+            "skysrgb": false,
+            "skyfaces": "png",
+            "basename": "assets/Default-Skybox",
+            "anisolevel": 2,
+            "exposure": 1.3,
+            "rotation": 0.0,
+            "maxreflect": true,
+            "hdrskybox": false,
+            "rendergroup": 0,
+            "extensions": [
+              "_px.png",
+              "_py.png",
+              "_pz.png",
+              "_nx.png",
+              "_ny.png",
+              "_nz.png"
+            ],
+            "polynomial": 0.01,
+            "environment": {
+              "type": "image/dds",
+              "name": "Default-Skybox",
+              "info": {
+                "prefiltered": true,
+                "customType": "BABYLON.CubeTexture",
+                "filtered": true,
+                "boundingBoxSize": null,
+                "boundingBoxPosition": null,
+                "name": "Default-Skybox_env.dds",
+                "level": 1.0,
+                "hasAlpha": false,
+                "getAlphaFromRGB": false,
+                "coordinatesMode": 3,
+                "isCube": true,
+                "uOffset": 0.0,
+                "vOffset": 0.0,
+                "uScale": 1.0,
+                "vScale": 1.0,
+                "uAng": 0.0,
+                "vAng": 0.0,
+                "wAng": 0.0,
+                "wrapU": 1,
+                "wrapV": 1,
+                "coordinatesIndex": 0,
+                "isRenderTarget": false,
+                "renderTargetSize": 0,
+                "mirrorPlane": null,
+                "renderList": null,
+                "animations": null,
+                "extensions": null,
+                "samplingMode": 7,
+                "noMipmap": false,
+                "rooturl": "assets/"
+              },
+              "level": 1.0,
+              "url": "assets/Default-Skybox_env.dds"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Grid"
+    },
+    {
+      "sampler": 1,
+      "source": 1,
+      "name": "d71152629a0450acb42bf4a44595dfed 1"
+    },
+    {
+      "sampler": 2,
+      "source": 2,
+      "name": "SampleScene_Lightmap-0_comp_light"
+    },
+    {
+      "sampler": 3,
+      "source": 3,
+      "name": "Amiga"
+    }
+  ]
+}
