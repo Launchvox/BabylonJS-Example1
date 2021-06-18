@@ -12,52 +12,52 @@
     {
       "bufferView": 0,
       "componentType": 5126,
-      "count": 121,
+      "count": 24,
       "type": "VEC3",
       "max": [
-        5.0,
-        1.1102230246251565E-16,
-        5.0
+        0.05000000074505806,
+        0.05000000074505806,
+        0.05000000074505806
       ],
       "min": [
-        -5.0,
-        -1.1102230246251565E-16,
-        -5.0
+        -0.05000000074505806,
+        -0.05000000074505806,
+        -0.05000000074505806
       ],
       "name": "vertices"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 121,
+      "count": 24,
       "type": "VEC3",
       "max": [
-        0.0,
         1.0,
-        0.0
+        1.0,
+        1.0
       ],
       "min": [
-        0.0,
-        1.0,
-        0.0
+        -1.0,
+        -1.0,
+        -1.0
       ],
       "name": "normals"
     },
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 121,
+      "count": 24,
       "type": "VEC4",
       "max": [
-        -1.0,
+        1.0,
         0.0,
-        0.0,
+        1.0,
         -1.0
       ],
       "min": [
         -1.0,
         0.0,
-        0.0,
+        -1.0,
         -1.0
       ],
       "name": "tangents"
@@ -65,7 +65,7 @@
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 121,
+      "count": 24,
       "type": "VEC2",
       "max": [
         1.0,
@@ -80,25 +80,25 @@
     {
       "bufferView": 4,
       "componentType": 5126,
-      "count": 121,
+      "count": 24,
       "type": "VEC2",
       "max": [
-        0.78125,
+        1.0,
         1.0
       ],
       "min": [
         0.0,
-        0.21875
+        0.0
       ],
       "name": "uv2"
     },
     {
       "bufferView": 5,
       "componentType": 5125,
-      "count": 600,
+      "count": 36,
       "type": "SCALAR",
       "max": [
-        120.0
+        23.0
       ],
       "min": [
         0.0
@@ -108,52 +108,52 @@
     {
       "bufferView": 6,
       "componentType": 5126,
-      "count": 121,
+      "count": 13,
       "type": "VEC3",
       "max": [
-        5.0,
-        1.1102230246251565E-16,
-        5.0
+        0.99495738744735718,
+        1.090129017829895,
+        1.0000002384185791
       ],
       "min": [
-        -5.0,
-        -1.1102230246251565E-16,
-        -5.0
+        -0.99495726823806763,
+        0.99999994039535522,
+        -0.99999994039535522
       ],
       "name": "vertices"
     },
     {
       "bufferView": 7,
       "componentType": 5126,
-      "count": 121,
+      "count": 13,
       "type": "VEC3",
       "max": [
-        0.0,
+        0.092398524284362793,
         1.0,
-        2.2204465786459051E-17
+        0.024774849414825439
       ],
       "min": [
-        0.0,
-        0.99999994039535522,
-        2.22044558602917E-17
+        -0.092398568987846375,
+        0.99541383981704712,
+        -0.024774957448244095
       ],
       "name": "normals"
     },
     {
       "bufferView": 8,
       "componentType": 5126,
-      "count": 121,
+      "count": 13,
       "type": "VEC4",
       "max": [
-        -1.0,
-        0.0,
-        0.0,
+        0.99999475479125977,
+        0.092506669461727142,
+        -0.0030947413761168718,
         -1.0
       ],
       "min": [
-        -1.0,
-        0.0,
-        0.0,
+        0.99570459127426147,
+        -0.092515826225280762,
+        -0.0039687305688858032,
         -1.0
       ],
       "name": "tangents"
@@ -161,40 +161,40 @@
     {
       "bufferView": 9,
       "componentType": 5126,
-      "count": 121,
+      "count": 13,
       "type": "VEC2",
       "max": [
-        1.0,
-        1.0
+        0.29231572151184082,
+        0.99555689096450806
       ],
       "min": [
-        0.0,
-        0.0
+        0.006260111927986145,
+        0.70913797616958618
       ],
       "name": "uv"
     },
     {
       "bufferView": 10,
       "componentType": 5126,
-      "count": 121,
+      "count": 13,
       "type": "VEC2",
       "max": [
-        1.0,
-        1.0
+        0.29231572151184082,
+        0.99555689096450806
       ],
       "min": [
-        0.0,
-        0.0
+        0.006260111927986145,
+        0.70913797616958618
       ],
       "name": "uv2"
     },
     {
       "bufferView": 11,
       "componentType": 5125,
-      "count": 600,
+      "count": 36,
       "type": "SCALAR",
       "max": [
-        120.0
+        12.0
       ],
       "min": [
         0.0
@@ -204,51 +204,51 @@
     {
       "bufferView": 12,
       "componentType": 5126,
-      "count": 515,
+      "count": 48721,
       "type": "VEC3",
       "max": [
-        0.5,
-        0.5,
-        0.5
+        139.73892211914063,
+        203.97756958007813,
+        -34.325496673583984
       ],
       "min": [
-        -0.5,
-        -0.5,
-        -0.5
+        -95.889801025390625,
+        5.6097984313964844,
+        -222.23300170898438
       ],
       "name": "vertices"
     },
     {
       "bufferView": 13,
       "componentType": 5126,
-      "count": 515,
+      "count": 48721,
       "type": "VEC3",
       "max": [
-        0.99997496604919434,
         1.0,
-        0.9999769926071167
+        1.0,
+        1.0
       ],
       "min": [
-        -0.99997496604919434,
         -1.0,
-        -0.99997353553771973
+        -1.0,
+        -1.0
       ],
       "name": "normals"
     },
     {
       "bufferView": 14,
       "componentType": 5126,
-      "count": 515,
+      "count": 48721,
       "type": "VEC4",
       "max": [
         1.0,
-        0.056131001561880112,
+        1.0,
         1.0,
         1.0
       ],
       "min": [
         -1.0,
-        -0.065983392298221588,
+        -1.0,
         -1.0,
         -1.0
       ],
@@ -257,40 +257,40 @@
     {
       "bufferView": 15,
       "componentType": 5126,
-      "count": 515,
+      "count": 48721,
       "type": "VEC2",
       "max": [
-        0.99833369255065918,
-        0.98237103223800659
+        3.4985849857330322,
+        1.0094859600067139
       ],
       "min": [
-        -0.00092136859893798828,
-        0.024108767509460449
+        -3.5476920604705811,
+        -0.0019603967666625977
       ],
       "name": "uv"
     },
     {
       "bufferView": 16,
       "componentType": 5126,
-      "count": 515,
+      "count": 48721,
       "type": "VEC2",
       "max": [
-        1.0000003576278687,
-        1.0
+        0.94045686721801758,
+        0.99800795316696167
       ],
       "min": [
-        0.0,
-        0.34614646434783936
+        0.0018771595787256956,
+        0.0019919276237487793
       ],
       "name": "uv2"
     },
     {
       "bufferView": 17,
       "componentType": 5125,
-      "count": 2304,
+      "count": 72423,
       "type": "SCALAR",
       "max": [
-        514.0
+        48720.0
       ],
       "min": [
         0.0
@@ -300,52 +300,52 @@
     {
       "bufferView": 18,
       "componentType": 5126,
-      "count": 515,
+      "count": 552,
       "type": "VEC3",
       "max": [
-        0.5,
-        0.5,
-        0.5
+        121.21434020996094,
+        25.333393096923828,
+        -21.233444213867188
       ],
       "min": [
-        -0.5,
-        -0.5,
-        -0.5
+        -86.61492919921875,
+        11.682557106018066,
+        -229.06271362304688
       ],
       "name": "vertices"
     },
     {
       "bufferView": 19,
       "componentType": 5126,
-      "count": 515,
+      "count": 552,
       "type": "VEC3",
       "max": [
-        0.99997496604919434,
+        0.54480284452438354,
         1.0,
-        0.9999769926071167
+        0.54480332136154175
       ],
       "min": [
-        -0.99997496604919434,
-        -1.0,
-        -0.99997353553771973
+        -0.5448032021522522,
+        0.836605966091156,
+        -0.5448029637336731
       ],
       "name": "normals"
     },
     {
       "bufferView": 20,
       "componentType": 5126,
-      "count": 515,
+      "count": 552,
       "type": "VEC4",
       "max": [
-        1.0,
-        0.056131001561880112,
-        1.0,
-        1.0
+        0.99965733289718628,
+        0.54780429601669312,
+        0.99965733289718628,
+        -1.0
       ],
       "min": [
-        -1.0,
-        -0.065983392298221588,
-        -1.0,
+        -0.99965733289718628,
+        -0.010241563431918621,
+        -0.99965733289718628,
         -1.0
       ],
       "name": "tangents"
@@ -353,712 +353,40 @@
     {
       "bufferView": 21,
       "componentType": 5126,
-      "count": 515,
+      "count": 552,
       "type": "VEC2",
       "max": [
-        0.99833369255065918,
-        0.98237103223800659
+        1.0,
+        0.70000004768371582
       ],
       "min": [
-        -0.00092136859893798828,
-        0.024108767509460449
+        -5.9604644775390625E-08,
+        0.0045955181121826172
       ],
       "name": "uv"
     },
     {
       "bufferView": 22,
       "componentType": 5126,
-      "count": 515,
+      "count": 552,
       "type": "VEC2",
       "max": [
-        1.0000003576278687,
-        1.0
+        1.0,
+        0.70000004768371582
       ],
       "min": [
-        0.0,
-        0.34614646434783936
+        -5.9604644775390625E-08,
+        0.0045955181121826172
       ],
       "name": "uv2"
     },
     {
       "bufferView": 23,
       "componentType": 5125,
-      "count": 2304,
+      "count": 792,
       "type": "SCALAR",
       "max": [
-        514.0
-      ],
-      "min": [
-        0.0
-      ],
-      "name": "indices"
-    },
-    {
-      "bufferView": 24,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC3",
-      "max": [
-        0.5,
-        0.5,
-        0.5
-      ],
-      "min": [
-        -0.5,
-        -0.5,
-        -0.5
-      ],
-      "name": "vertices"
-    },
-    {
-      "bufferView": 25,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC3",
-      "max": [
-        0.99997496604919434,
-        1.0,
-        0.9999769926071167
-      ],
-      "min": [
-        -0.99997496604919434,
-        -1.0,
-        -0.99997353553771973
-      ],
-      "name": "normals"
-    },
-    {
-      "bufferView": 26,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC4",
-      "max": [
-        1.0,
-        0.056131001561880112,
-        1.0,
-        1.0
-      ],
-      "min": [
-        -1.0,
-        -0.065983392298221588,
-        -1.0,
-        -1.0
-      ],
-      "name": "tangents"
-    },
-    {
-      "bufferView": 27,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC2",
-      "max": [
-        0.99833369255065918,
-        0.98237103223800659
-      ],
-      "min": [
-        -0.00092136859893798828,
-        0.024108767509460449
-      ],
-      "name": "uv"
-    },
-    {
-      "bufferView": 28,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC2",
-      "max": [
-        1.0000003576278687,
-        1.0
-      ],
-      "min": [
-        0.0,
-        0.34614646434783936
-      ],
-      "name": "uv2"
-    },
-    {
-      "bufferView": 29,
-      "componentType": 5125,
-      "count": 2304,
-      "type": "SCALAR",
-      "max": [
-        514.0
-      ],
-      "min": [
-        0.0
-      ],
-      "name": "indices"
-    },
-    {
-      "bufferView": 30,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC3",
-      "max": [
-        0.5,
-        0.5,
-        0.5
-      ],
-      "min": [
-        -0.5,
-        -0.5,
-        -0.5
-      ],
-      "name": "vertices"
-    },
-    {
-      "bufferView": 31,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC3",
-      "max": [
-        0.99997496604919434,
-        1.0,
-        0.9999769926071167
-      ],
-      "min": [
-        -0.99997496604919434,
-        -1.0,
-        -0.99997353553771973
-      ],
-      "name": "normals"
-    },
-    {
-      "bufferView": 32,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC4",
-      "max": [
-        1.0,
-        0.056131001561880112,
-        1.0,
-        1.0
-      ],
-      "min": [
-        -1.0,
-        -0.065983392298221588,
-        -1.0,
-        -1.0
-      ],
-      "name": "tangents"
-    },
-    {
-      "bufferView": 33,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC2",
-      "max": [
-        0.99833369255065918,
-        0.98237103223800659
-      ],
-      "min": [
-        -0.00092136859893798828,
-        0.024108767509460449
-      ],
-      "name": "uv"
-    },
-    {
-      "bufferView": 34,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC2",
-      "max": [
-        1.0000003576278687,
-        1.0
-      ],
-      "min": [
-        0.0,
-        0.34614646434783936
-      ],
-      "name": "uv2"
-    },
-    {
-      "bufferView": 35,
-      "componentType": 5125,
-      "count": 2304,
-      "type": "SCALAR",
-      "max": [
-        514.0
-      ],
-      "min": [
-        0.0
-      ],
-      "name": "indices"
-    },
-    {
-      "bufferView": 36,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC3",
-      "max": [
-        0.5,
-        0.5,
-        0.5
-      ],
-      "min": [
-        -0.5,
-        -0.5,
-        -0.5
-      ],
-      "name": "vertices"
-    },
-    {
-      "bufferView": 37,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC3",
-      "max": [
-        0.99997496604919434,
-        1.0,
-        0.9999769926071167
-      ],
-      "min": [
-        -0.99997496604919434,
-        -1.0,
-        -0.99997353553771973
-      ],
-      "name": "normals"
-    },
-    {
-      "bufferView": 38,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC4",
-      "max": [
-        1.0,
-        0.056131001561880112,
-        1.0,
-        1.0
-      ],
-      "min": [
-        -1.0,
-        -0.065983392298221588,
-        -1.0,
-        -1.0
-      ],
-      "name": "tangents"
-    },
-    {
-      "bufferView": 39,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC2",
-      "max": [
-        0.99833369255065918,
-        0.98237103223800659
-      ],
-      "min": [
-        -0.00092136859893798828,
-        0.024108767509460449
-      ],
-      "name": "uv"
-    },
-    {
-      "bufferView": 40,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC2",
-      "max": [
-        1.0000003576278687,
-        1.0
-      ],
-      "min": [
-        0.0,
-        0.34614646434783936
-      ],
-      "name": "uv2"
-    },
-    {
-      "bufferView": 41,
-      "componentType": 5125,
-      "count": 2304,
-      "type": "SCALAR",
-      "max": [
-        514.0
-      ],
-      "min": [
-        0.0
-      ],
-      "name": "indices"
-    },
-    {
-      "bufferView": 42,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC3",
-      "max": [
-        0.5,
-        0.5,
-        0.5
-      ],
-      "min": [
-        -0.5,
-        -0.5,
-        -0.5
-      ],
-      "name": "vertices"
-    },
-    {
-      "bufferView": 43,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC3",
-      "max": [
-        0.99997496604919434,
-        1.0,
-        0.9999769926071167
-      ],
-      "min": [
-        -0.99997496604919434,
-        -1.0,
-        -0.99997353553771973
-      ],
-      "name": "normals"
-    },
-    {
-      "bufferView": 44,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC4",
-      "max": [
-        1.0,
-        0.056131001561880112,
-        1.0,
-        1.0
-      ],
-      "min": [
-        -1.0,
-        -0.065983392298221588,
-        -1.0,
-        -1.0
-      ],
-      "name": "tangents"
-    },
-    {
-      "bufferView": 45,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC2",
-      "max": [
-        0.99833369255065918,
-        0.98237103223800659
-      ],
-      "min": [
-        -0.00092136859893798828,
-        0.024108767509460449
-      ],
-      "name": "uv"
-    },
-    {
-      "bufferView": 46,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC2",
-      "max": [
-        1.0000003576278687,
-        1.0
-      ],
-      "min": [
-        0.0,
-        0.34614646434783936
-      ],
-      "name": "uv2"
-    },
-    {
-      "bufferView": 47,
-      "componentType": 5125,
-      "count": 2304,
-      "type": "SCALAR",
-      "max": [
-        514.0
-      ],
-      "min": [
-        0.0
-      ],
-      "name": "indices"
-    },
-    {
-      "bufferView": 48,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC3",
-      "max": [
-        0.5,
-        0.5,
-        0.5
-      ],
-      "min": [
-        -0.5,
-        -0.5,
-        -0.5
-      ],
-      "name": "vertices"
-    },
-    {
-      "bufferView": 49,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC3",
-      "max": [
-        0.99997496604919434,
-        1.0,
-        0.9999769926071167
-      ],
-      "min": [
-        -0.99997496604919434,
-        -1.0,
-        -0.99997353553771973
-      ],
-      "name": "normals"
-    },
-    {
-      "bufferView": 50,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC4",
-      "max": [
-        1.0,
-        0.056131001561880112,
-        1.0,
-        1.0
-      ],
-      "min": [
-        -1.0,
-        -0.065983392298221588,
-        -1.0,
-        -1.0
-      ],
-      "name": "tangents"
-    },
-    {
-      "bufferView": 51,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC2",
-      "max": [
-        0.99833369255065918,
-        0.98237103223800659
-      ],
-      "min": [
-        -0.00092136859893798828,
-        0.024108767509460449
-      ],
-      "name": "uv"
-    },
-    {
-      "bufferView": 52,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC2",
-      "max": [
-        1.0000003576278687,
-        1.0
-      ],
-      "min": [
-        0.0,
-        0.34614646434783936
-      ],
-      "name": "uv2"
-    },
-    {
-      "bufferView": 53,
-      "componentType": 5125,
-      "count": 2304,
-      "type": "SCALAR",
-      "max": [
-        514.0
-      ],
-      "min": [
-        0.0
-      ],
-      "name": "indices"
-    },
-    {
-      "bufferView": 54,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC3",
-      "max": [
-        0.5,
-        0.5,
-        0.5
-      ],
-      "min": [
-        -0.5,
-        -0.5,
-        -0.5
-      ],
-      "name": "vertices"
-    },
-    {
-      "bufferView": 55,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC3",
-      "max": [
-        0.99997496604919434,
-        1.0,
-        0.9999769926071167
-      ],
-      "min": [
-        -0.99997496604919434,
-        -1.0,
-        -0.99997353553771973
-      ],
-      "name": "normals"
-    },
-    {
-      "bufferView": 56,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC4",
-      "max": [
-        1.0,
-        0.056131001561880112,
-        1.0,
-        1.0
-      ],
-      "min": [
-        -1.0,
-        -0.065983392298221588,
-        -1.0,
-        -1.0
-      ],
-      "name": "tangents"
-    },
-    {
-      "bufferView": 57,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC2",
-      "max": [
-        0.99833369255065918,
-        0.98237103223800659
-      ],
-      "min": [
-        -0.00092136859893798828,
-        0.024108767509460449
-      ],
-      "name": "uv"
-    },
-    {
-      "bufferView": 58,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC2",
-      "max": [
-        1.0000003576278687,
-        1.0
-      ],
-      "min": [
-        0.0,
-        0.34614646434783936
-      ],
-      "name": "uv2"
-    },
-    {
-      "bufferView": 59,
-      "componentType": 5125,
-      "count": 2304,
-      "type": "SCALAR",
-      "max": [
-        514.0
-      ],
-      "min": [
-        0.0
-      ],
-      "name": "indices"
-    },
-    {
-      "bufferView": 60,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC3",
-      "max": [
-        0.5,
-        0.5,
-        0.5
-      ],
-      "min": [
-        -0.5,
-        -0.5,
-        -0.5
-      ],
-      "name": "vertices"
-    },
-    {
-      "bufferView": 61,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC3",
-      "max": [
-        0.99997496604919434,
-        1.0,
-        0.9999769926071167
-      ],
-      "min": [
-        -0.99997496604919434,
-        -1.0,
-        -0.99997353553771973
-      ],
-      "name": "normals"
-    },
-    {
-      "bufferView": 62,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC4",
-      "max": [
-        1.0,
-        0.056131001561880112,
-        1.0,
-        1.0
-      ],
-      "min": [
-        -1.0,
-        -0.065983392298221588,
-        -1.0,
-        -1.0
-      ],
-      "name": "tangents"
-    },
-    {
-      "bufferView": 63,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC2",
-      "max": [
-        0.99833369255065918,
-        0.98237103223800659
-      ],
-      "min": [
-        -0.00092136859893798828,
-        0.024108767509460449
-      ],
-      "name": "uv"
-    },
-    {
-      "bufferView": 64,
-      "componentType": 5126,
-      "count": 515,
-      "type": "VEC2",
-      "max": [
-        1.0000003576278687,
-        1.0
-      ],
-      "min": [
-        0.0,
-        0.34614646434783936
-      ],
-      "name": "uv2"
-    },
-    {
-      "bufferView": 65,
-      "componentType": 5125,
-      "count": 2304,
-      "type": "SCALAR",
-      "max": [
-        514.0
+        551.0
       ],
       "min": [
         0.0
@@ -1073,418 +401,153 @@
   "buffers": [
     {
       "uri": "SampleScene.bin",
-      "byteLength": 360856
+      "byteLength": 3054508
     }
   ],
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 1452
+      "byteLength": 288
     },
     {
       "buffer": 0,
-      "byteOffset": 1452,
-      "byteLength": 1452
+      "byteOffset": 288,
+      "byteLength": 288
     },
     {
       "buffer": 0,
-      "byteOffset": 2904,
-      "byteLength": 1936
+      "byteOffset": 576,
+      "byteLength": 384
     },
     {
       "buffer": 0,
-      "byteOffset": 4840,
-      "byteLength": 968
+      "byteOffset": 960,
+      "byteLength": 192
     },
     {
       "buffer": 0,
-      "byteOffset": 5808,
-      "byteLength": 968
+      "byteOffset": 1152,
+      "byteLength": 192
     },
     {
       "buffer": 0,
-      "byteOffset": 6776,
-      "byteLength": 2400
+      "byteOffset": 1344,
+      "byteLength": 144
     },
     {
       "buffer": 0,
-      "byteOffset": 9176,
-      "byteLength": 1452
+      "byteOffset": 1488,
+      "byteLength": 156
     },
     {
       "buffer": 0,
-      "byteOffset": 10628,
-      "byteLength": 1452
+      "byteOffset": 1644,
+      "byteLength": 156
     },
     {
       "buffer": 0,
-      "byteOffset": 12080,
-      "byteLength": 1936
+      "byteOffset": 1800,
+      "byteLength": 208
     },
     {
       "buffer": 0,
-      "byteOffset": 14016,
-      "byteLength": 968
+      "byteOffset": 2008,
+      "byteLength": 104
     },
     {
       "buffer": 0,
-      "byteOffset": 14984,
-      "byteLength": 968
+      "byteOffset": 2112,
+      "byteLength": 104
     },
     {
       "buffer": 0,
-      "byteOffset": 15952,
-      "byteLength": 2400
+      "byteOffset": 2216,
+      "byteLength": 144
     },
     {
       "buffer": 0,
-      "byteOffset": 18352,
-      "byteLength": 6180
+      "byteOffset": 2360,
+      "byteLength": 584652
     },
     {
       "buffer": 0,
-      "byteOffset": 24532,
-      "byteLength": 6180
+      "byteOffset": 587012,
+      "byteLength": 584652
     },
     {
       "buffer": 0,
-      "byteOffset": 30712,
-      "byteLength": 8240
+      "byteOffset": 1171664,
+      "byteLength": 779536
     },
     {
       "buffer": 0,
-      "byteOffset": 38952,
-      "byteLength": 4120
+      "byteOffset": 1951200,
+      "byteLength": 389768
     },
     {
       "buffer": 0,
-      "byteOffset": 43072,
-      "byteLength": 4120
+      "byteOffset": 2340968,
+      "byteLength": 389768
     },
     {
       "buffer": 0,
-      "byteOffset": 47192,
-      "byteLength": 9216
+      "byteOffset": 2730736,
+      "byteLength": 289692
     },
     {
       "buffer": 0,
-      "byteOffset": 56408,
-      "byteLength": 6180
+      "byteOffset": 3020428,
+      "byteLength": 6624
     },
     {
       "buffer": 0,
-      "byteOffset": 62588,
-      "byteLength": 6180
+      "byteOffset": 3027052,
+      "byteLength": 6624
     },
     {
       "buffer": 0,
-      "byteOffset": 68768,
-      "byteLength": 8240
+      "byteOffset": 3033676,
+      "byteLength": 8832
     },
     {
       "buffer": 0,
-      "byteOffset": 77008,
-      "byteLength": 4120
+      "byteOffset": 3042508,
+      "byteLength": 4416
     },
     {
       "buffer": 0,
-      "byteOffset": 81128,
-      "byteLength": 4120
+      "byteOffset": 3046924,
+      "byteLength": 4416
     },
     {
       "buffer": 0,
-      "byteOffset": 85248,
-      "byteLength": 9216
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 94464,
-      "byteLength": 6180
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 100644,
-      "byteLength": 6180
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 106824,
-      "byteLength": 8240
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 115064,
-      "byteLength": 4120
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 119184,
-      "byteLength": 4120
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 123304,
-      "byteLength": 9216
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 132520,
-      "byteLength": 6180
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 138700,
-      "byteLength": 6180
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 144880,
-      "byteLength": 8240
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 153120,
-      "byteLength": 4120
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 157240,
-      "byteLength": 4120
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 161360,
-      "byteLength": 9216
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 170576,
-      "byteLength": 6180
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 176756,
-      "byteLength": 6180
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 182936,
-      "byteLength": 8240
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 191176,
-      "byteLength": 4120
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 195296,
-      "byteLength": 4120
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 199416,
-      "byteLength": 9216
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 208632,
-      "byteLength": 6180
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 214812,
-      "byteLength": 6180
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 220992,
-      "byteLength": 8240
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 229232,
-      "byteLength": 4120
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 233352,
-      "byteLength": 4120
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 237472,
-      "byteLength": 9216
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 246688,
-      "byteLength": 6180
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 252868,
-      "byteLength": 6180
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 259048,
-      "byteLength": 8240
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 267288,
-      "byteLength": 4120
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 271408,
-      "byteLength": 4120
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 275528,
-      "byteLength": 9216
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 284744,
-      "byteLength": 6180
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 290924,
-      "byteLength": 6180
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 297104,
-      "byteLength": 8240
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 305344,
-      "byteLength": 4120
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 309464,
-      "byteLength": 4120
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 313584,
-      "byteLength": 9216
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 322800,
-      "byteLength": 6180
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 328980,
-      "byteLength": 6180
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 335160,
-      "byteLength": 8240
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 343400,
-      "byteLength": 4120
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 347520,
-      "byteLength": 4120
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 351640,
-      "byteLength": 9216
+      "byteOffset": 3051340,
+      "byteLength": 3168
     }
   ],
   "images": [
     {
-      "uri": "assets/babylon/images/Grid.png",
-      "name": "Grid"
+      "uri": "assets/dae_villages__shipwrecked_chinese_supply_store/textures/sky_m_baseColor_0.png",
+      "name": "sky_m_baseColor_0"
     },
     {
-      "uri": "assets/d71152629a0450acb42bf4a44595dfed1.png",
-      "name": "d71152629a0450acb42bf4a44595dfed 1"
+      "uri": "assets/dae_villages__shipwrecked_chinese_supply_store/textures/textureAtlas_m_baseColor_1.png",
+      "name": "textureAtlas_m_baseColor_1"
     },
     {
-      "uri": "assets/SampleScene_Lightmap-0_comp_light.png",
-      "name": "SampleScene_Lightmap-0_comp_light"
+      "uri": "assets/dae_villages__shipwrecked_chinese_supply_store/textures/textureAtlas_m_metallicRoughness_2_metal.png",
+      "name": "textureAtlas_m_metallicRoughness_2_metal"
     },
     {
-      "uri": "assets/babylon/images/Amiga.png",
-      "name": "Amiga"
+      "uri": "assets/dae_villages__shipwrecked_chinese_supply_store/textures/textureAtlas_m_metallicRoughness_2_occlusion_Occ.png",
+      "name": "textureAtlas_m_metallicRoughness_2_occlusion"
+    },
+    {
+      "uri": "assets/dae_villages__shipwrecked_chinese_supply_store/textures/environmentAtlas_m_baseColor_3.png",
+      "name": "environmentAtlas_m_baseColor_3"
     }
   ],
   "materials": [
-    {
-      "pbrMetallicRoughness": {
-        "baseColorTexture": {
-          "index": 0,
-          "texCoord": 0
-        },
-        "metallicFactor": 0.0,
-        "roughnessFactor": 0.5
-      },
-      "normalTexture": {
-        "scale": 1.0,
-        "index": 1,
-        "texCoord": 0
-      },
-      "name": "M_Grid",
-      "extras": {
-        "metadata": {
-          "alphaMode": 2,
-          "alphaFade": false,
-          "useWireframe": false,
-          "depthPrepass": false,
-          "unlitMaterial": false,
-          "freezeMaterial": true,
-          "disableLighting": false,
-          "detailBlendLevel": 0.75,
-          "detailBumpLevel": 1.0,
-          "detailRoughLevel": 0.5,
-          "lightmapLevel": 1.0,
-          "backFaceCulling": true,
-          "directIntensity": 1.0,
-          "specularIntensity": 1.0,
-          "emissiveIntensity": 1.0,
-          "environmentIntensity": 1.0,
-          "useExpandedLightmapTexture": false,
-          "useEmissiveAsIllumination": false,
-          "useLightmapAsShadowmap": true,
-          "useAlphaFromAlbedoTexture": false,
-          "hasAlbedoTextureChannel": false,
-          "maxSimultaneousLights": 4,
-          "indexOfRefraction": 1.5,
-          "ambientColorFactor": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-          ],
-          "reflectionColorFactor": [
-            1.0,
-            1.0,
-            1.0,
-            1.0
-          ],
-          "lightmapTexture": {
-            "index": 2,
-            "texCoord": 1
-          }
-        }
-      }
-    },
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
@@ -1540,19 +603,117 @@
     {
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          0.136869952,
-          0.136869952,
-          0.136869952,
-          1.0
+          1.0,
+          1.0,
+          1.0,
+          0.8
         ],
         "baseColorTexture": {
-          "index": 3,
+          "index": 0,
           "texCoord": 0
         },
         "metallicFactor": 0.0,
-        "roughnessFactor": 0.43800002336502075
+        "roughnessFactor": 0.0
       },
-      "name": "M_Reflective",
+      "alphaMode": "BLEND",
+      "name": "sky_m_0",
+      "extras": {
+        "metadata": {
+          "alphaMode": 2,
+          "alphaFade": true,
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "detailBlendLevel": 0.75,
+          "detailBumpLevel": 1.0,
+          "detailRoughLevel": 0.5,
+          "lightmapLevel": 1.0,
+          "backFaceCulling": true,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useExpandedLightmapTexture": false,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": true,
+          "useAlphaFromAlbedoTexture": true,
+          "hasAlbedoTextureChannel": false,
+          "maxSimultaneousLights": 4,
+          "indexOfRefraction": 1.5,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "reflectionColorFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "reflectionCubemapFile": "assets/scenes/samplescene/ReflectionProbe-0.dds",
+          "reflectionCubemapInfo": {
+            "prefiltered": true,
+            "customType": "BABYLON.CubeTexture",
+            "filtered": true,
+            "boundingBoxSize": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "boundingBoxPosition": [
+              1.61,
+              1.09,
+              -3.14
+            ],
+            "name": "ReflectionProbe-0.dds",
+            "level": 1.0,
+            "hasAlpha": false,
+            "getAlphaFromRGB": false,
+            "coordinatesMode": 3,
+            "isCube": true,
+            "uOffset": 0.0,
+            "vOffset": 0.0,
+            "uScale": 1.0,
+            "vScale": 1.0,
+            "uAng": 0.0,
+            "vAng": 0.0,
+            "wAng": 0.0,
+            "wrapU": 1,
+            "wrapV": 1,
+            "coordinatesIndex": 0,
+            "isRenderTarget": false,
+            "renderTargetSize": 0,
+            "mirrorPlane": null,
+            "renderList": null,
+            "animations": null,
+            "extensions": null,
+            "samplingMode": 7,
+            "noMipmap": false,
+            "rooturl": "assets\\scenes\\samplescene/"
+          }
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        }
+      },
+      "occlusionTexture": {
+        "index": 3,
+        "texCoord": 0
+      },
+      "name": "textureAtlas_m_1",
       "extras": {
         "metadata": {
           "alphaMode": 2,
@@ -1589,7 +750,140 @@
             1.0,
             1.0,
             1.0
-          ]
+          ],
+          "reflectionCubemapFile": "assets/scenes/samplescene/ReflectionProbe-0.dds",
+          "reflectionCubemapInfo": {
+            "prefiltered": true,
+            "customType": "BABYLON.CubeTexture",
+            "filtered": true,
+            "boundingBoxSize": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "boundingBoxPosition": [
+              1.61,
+              1.09,
+              -3.14
+            ],
+            "name": "ReflectionProbe-0.dds",
+            "level": 1.0,
+            "hasAlpha": false,
+            "getAlphaFromRGB": false,
+            "coordinatesMode": 3,
+            "isCube": true,
+            "uOffset": 0.0,
+            "vOffset": 0.0,
+            "uScale": 1.0,
+            "vScale": 1.0,
+            "uAng": 0.0,
+            "vAng": 0.0,
+            "wAng": 0.0,
+            "wrapU": 1,
+            "wrapV": 1,
+            "coordinatesIndex": 0,
+            "isRenderTarget": false,
+            "renderTargetSize": 0,
+            "mirrorPlane": null,
+            "renderList": null,
+            "animations": null,
+            "extensions": null,
+            "samplingMode": 7,
+            "noMipmap": false,
+            "rooturl": "assets\\scenes\\samplescene/"
+          }
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 4,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      },
+      "alphaMode": "BLEND",
+      "name": "environmentAtlas_m_2",
+      "extras": {
+        "metadata": {
+          "alphaMode": 2,
+          "alphaFade": true,
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": true,
+          "disableLighting": false,
+          "detailBlendLevel": 0.75,
+          "detailBumpLevel": 1.0,
+          "detailRoughLevel": 0.5,
+          "lightmapLevel": 1.0,
+          "backFaceCulling": true,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useExpandedLightmapTexture": false,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": true,
+          "useAlphaFromAlbedoTexture": true,
+          "hasAlbedoTextureChannel": false,
+          "maxSimultaneousLights": 4,
+          "indexOfRefraction": 1.5,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "reflectionColorFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "reflectionCubemapFile": "assets/scenes/samplescene/ReflectionProbe-0.dds",
+          "reflectionCubemapInfo": {
+            "prefiltered": true,
+            "customType": "BABYLON.CubeTexture",
+            "filtered": true,
+            "boundingBoxSize": [
+              10.0,
+              10.0,
+              10.0
+            ],
+            "boundingBoxPosition": [
+              1.61,
+              1.09,
+              -3.14
+            ],
+            "name": "ReflectionProbe-0.dds",
+            "level": 1.0,
+            "hasAlpha": false,
+            "getAlphaFromRGB": false,
+            "coordinatesMode": 3,
+            "isCube": true,
+            "uOffset": 0.0,
+            "vOffset": 0.0,
+            "uScale": 1.0,
+            "vScale": 1.0,
+            "uAng": 0.0,
+            "vAng": 0.0,
+            "wAng": 0.0,
+            "wrapU": 1,
+            "wrapV": 1,
+            "coordinatesIndex": 0,
+            "isRenderTarget": false,
+            "renderTargetSize": 0,
+            "mirrorPlane": null,
+            "renderList": null,
+            "animations": null,
+            "extensions": null,
+            "samplingMode": 7,
+            "noMipmap": false,
+            "rooturl": "assets\\scenes\\samplescene/"
+          }
         }
       }
     }
@@ -1609,7 +903,7 @@
           "material": 0
         }
       ],
-      "name": "Plane"
+      "name": "Scene Controller"
     },
     {
       "primitives": [
@@ -1625,7 +919,7 @@
           "material": 1
         }
       ],
-      "name": "Plane"
+      "name": "pCylinder109_sky_m_0"
     },
     {
       "primitives": [
@@ -1641,7 +935,7 @@
           "material": 2
         }
       ],
-      "name": "Sphere (1)"
+      "name": "group144_textureAtlas_m_0"
     },
     {
       "primitives": [
@@ -1654,130 +948,32 @@
             "TEXCOORD_1": 22
           },
           "indices": 23,
-          "material": 2
+          "material": 3
         }
       ],
-      "name": "Sphere (2)"
-    },
-    {
-      "primitives": [
-        {
-          "attributes": {
-            "POSITION": 24,
-            "NORMAL": 25,
-            "TANGENT": 26,
-            "TEXCOORD_0": 27,
-            "TEXCOORD_1": 28
-          },
-          "indices": 29,
-          "material": 2
-        }
-      ],
-      "name": "Sphere (3)"
-    },
-    {
-      "primitives": [
-        {
-          "attributes": {
-            "POSITION": 30,
-            "NORMAL": 31,
-            "TANGENT": 32,
-            "TEXCOORD_0": 33,
-            "TEXCOORD_1": 34
-          },
-          "indices": 35,
-          "material": 2
-        }
-      ],
-      "name": "Sphere (4)"
-    },
-    {
-      "primitives": [
-        {
-          "attributes": {
-            "POSITION": 36,
-            "NORMAL": 37,
-            "TANGENT": 38,
-            "TEXCOORD_0": 39,
-            "TEXCOORD_1": 40
-          },
-          "indices": 41,
-          "material": 2
-        }
-      ],
-      "name": "Sphere (5)"
-    },
-    {
-      "primitives": [
-        {
-          "attributes": {
-            "POSITION": 42,
-            "NORMAL": 43,
-            "TANGENT": 44,
-            "TEXCOORD_0": 45,
-            "TEXCOORD_1": 46
-          },
-          "indices": 47,
-          "material": 2
-        }
-      ],
-      "name": "Sphere (6)"
-    },
-    {
-      "primitives": [
-        {
-          "attributes": {
-            "POSITION": 48,
-            "NORMAL": 49,
-            "TANGENT": 50,
-            "TEXCOORD_0": 51,
-            "TEXCOORD_1": 52
-          },
-          "indices": 53,
-          "material": 2
-        }
-      ],
-      "name": "Sphere (7)"
-    },
-    {
-      "primitives": [
-        {
-          "attributes": {
-            "POSITION": 54,
-            "NORMAL": 55,
-            "TANGENT": 56,
-            "TEXCOORD_0": 57,
-            "TEXCOORD_1": 58
-          },
-          "indices": 59,
-          "material": 2
-        }
-      ],
-      "name": "Sphere (8)"
-    },
-    {
-      "primitives": [
-        {
-          "attributes": {
-            "POSITION": 60,
-            "NORMAL": 61,
-            "TANGENT": 62,
-            "TEXCOORD_0": 63,
-            "TEXCOORD_1": 64
-          },
-          "indices": 65,
-          "material": 2
-        }
-      ],
-      "name": "Sphere (9)"
+      "name": "group144_environmentAtlas_m_0"
     }
   ],
   "nodes": [
     {
+      "mesh": 0,
+      "rotation": [
+        0.0024918667,
+        -0.307903379,
+        0.0008064407,
+        0.951414049
+      ],
+      "translation": [
+        1.61,
+        1.09,
+        -3.14
+      ],
       "name": "Scene Controller",
       "extras": {
         "metadata": {
-          "guid": "de124b7a-e1d2-4b86-a609-fce25dd4c277",
+          "guid": "2c4eef6f-ec19-4282-b94e-70960d46b6fc",
+          "visible": false,
+          "visibility": 0.5,
           "components": [
             {
               "alias": "script",
@@ -1804,112 +1000,303 @@
       }
     },
     {
-      "rotation": [
-        0.408217877,
-        -0.234569684,
-        0.109381631,
-        0.8754261
+      "children": [
+        2
       ],
       "scale": [
-        1.0,
-        1.0,
-        0.99999994
+        0.02218,
+        0.02218,
+        0.02218
       ],
       "translation": [
-        1.04,
-        2.14,
-        -1.91
+        1.7062,
+        -0.82,
+        0.86
       ],
-      "name": "Directional Light",
+      "name": "DAE_Villages__Shipwrecked_Chinese_Supply_Store",
       "extras": {
         "metadata": {
-          "guid": "5349fba0-38ed-45b4-97db-df3128b80111",
-          "components": [
-            {
-              "alias": "light",
-              "type": 2,
-              "range": 10.0,
-              "culling": -1,
-              "clearflags": 0,
-              "renderlist": null,
-              "color": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
-                "a": 1.0
-              },
-              "specular": {
-                "r": 1.0,
-                "g": 1.0,
-                "b": 1.0,
-                "a": 1.0
-              },
-              "intensity": 9.0,
-              "spotangle": 145.838181,
-              "orthoscale": 0.1,
-              "autorender": true,
-              "numcascades": 4,
-              "calczbounds": false,
-              "updateextends": false,
-              "ortholeft": 1.7976931348623157E+308,
-              "orthoright": 1.7976931348623157E+308,
-              "orthotop": 1.7976931348623157E+308,
-              "orthobottom": 1.7976931348623157E+308,
-              "softshadows": true,
-              "shadowmapsize": 2048,
-              "shadowquality": "High",
-              "generateshadows": true,
-              "shadowdistance": 150.0,
-              "shadowstrength": 1.0,
-              "shadowbiasfactor": 0.01,
-              "normalbiasfactor": 0.0,
-              "shadowmapbias": 0.0,
-              "normalmapbias": 1.25,
-              "shadownearplane": 0.1,
-              "cascadelambda": 1.0,
-              "twocascadesplit": 0.333333343,
-              "fourcascadesplit": [
-                0.06666667,
-                0.2,
-                0.466666669
-              ],
-              "blendpertecntage": 1E-08,
-              "boundsrefreshrate": 1,
-              "lightcontactratio": 0.1,
-              "stabilizecascades": false,
-              "exponentdecayspeed": 1.0,
-              "penumbradarkness": 1.0,
-              "softshadowsfilter": 99,
-              "freezeshadows": false,
-              "setdepthclamp": false,
-              "calcdepths": false,
-              "depthscaling": 50.0,
-              "kernelblur": false,
-              "blurscaling": 2.0,
-              "blurkernelsize": 1.0,
-              "blurboxoffset": 1.0,
-              "shadowfrustumsize": 0.0,
-              "frustumedgefalloff": 0.0,
-              "forcebackfacesonly": false,
-              "transparencyshadow": false,
-              "softtransparency": false,
-              "shadowfilterquality": "Medium",
-              "usefullfloatfirst": false
-            }
-          ]
+          "guid": "6b8a6f92-90fb-46bb-8e4f-9231ea0ffc01",
+          "navigation": {
+            "area": 0,
+            "links": null
+          },
+          "tags": "Untagged NavigationStatic Layer0"
         }
       }
     },
     {
-      "translation": [
+      "children": [
+        3
+      ],
+      "rotation": [
+        -0.7071068,
         0.0,
-        -0.01,
-        -3.03
+        0.0,
+        -0.7071068
+      ],
+      "name": "Sketchfab_model",
+      "extras": {
+        "metadata": {
+          "guid": "0da0fcb0-6f04-4248-b81b-2b5fbca9a532",
+          "navigation": {
+            "area": 0,
+            "links": null
+          },
+          "tags": "Untagged NavigationStatic Layer0"
+        }
+      }
+    },
+    {
+      "children": [
+        4
+      ],
+      "rotation": [
+        0.7071068,
+        0.0,
+        0.0,
+        -0.7071068
+      ],
+      "name": "5505329f796741979f6531fce1ae01da.fbx",
+      "extras": {
+        "metadata": {
+          "guid": "a4f8c4fd-5a8c-4498-89af-e09642061c58",
+          "navigation": {
+            "area": 0,
+            "links": null
+          },
+          "tags": "Untagged NavigationStatic Layer0"
+        }
+      }
+    },
+    {
+      "children": [
+        5,
+        7
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "RootNode",
+      "extras": {
+        "metadata": {
+          "guid": "a611535d-5c0e-4fea-a606-d706c20e7db0",
+          "navigation": {
+            "area": 0,
+            "links": null
+          },
+          "tags": "Untagged NavigationStatic Layer0"
+        }
+      }
+    },
+    {
+      "children": [
+        6
+      ],
+      "rotation": [
+        0.7063271,
+        -0.0331980474,
+        -0.0331980474,
+        -0.7063271
+      ],
+      "scale": [
+        70.22819,
+        67.64755,
+        70.22819
+      ],
+      "translation": [
+        38.8125458,
+        111.873329,
+        63.1878548
+      ],
+      "name": "pCylinder109",
+      "extras": {
+        "metadata": {
+          "guid": "bbcdc33b-0569-427d-b889-bf841deb2e71",
+          "navigation": {
+            "area": 0,
+            "links": null
+          },
+          "tags": "Untagged NavigationStatic Layer0"
+        }
+      }
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "pCylinder109_sky_m_0",
+      "extras": {
+        "metadata": {
+          "guid": "7d40c0eb-22b0-4d70-82dd-c19b6327d1d3",
+          "navigation": {
+            "area": 0,
+            "links": null
+          },
+          "tags": "Untagged NavigationStatic Layer0",
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": true,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        8,
+        9
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "group144",
+      "extras": {
+        "metadata": {
+          "guid": "59407397-f90d-4f4b-b8dd-3f27bab5eda0",
+          "navigation": {
+            "area": 0,
+            "links": null
+          },
+          "tags": "Untagged NavigationStatic Layer0"
+        }
+      }
+    },
+    {
+      "mesh": 2,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "group144_textureAtlas_m_0",
+      "extras": {
+        "metadata": {
+          "guid": "a4d93f04-92b4-48da-8f0e-240296a76855",
+          "navigation": {
+            "area": 0,
+            "links": null
+          },
+          "tags": "Untagged NavigationStatic Layer0",
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": true,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "mesh": 3,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "group144_environmentAtlas_m_0",
+      "extras": {
+        "metadata": {
+          "guid": "4012d3f5-b1f1-43d2-be77-408920f59141",
+          "navigation": {
+            "area": 0,
+            "links": null
+          },
+          "tags": "Untagged NavigationStatic Layer0",
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": true,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.09482491,
+        -0.4592996,
+        0.0493897647,
+        0.88182354
+      ],
+      "scale": [
+        0.9999999,
+        1.0,
+        1.0
+      ],
+      "translation": [
+        4.99,
+        1.83,
+        -4.48
       ],
       "name": "Main Camera",
       "extras": {
         "metadata": {
-          "guid": "d1631e98-0957-4d49-908d-d0bcb32fb51c",
+          "guid": "9ac7ea1a-a056-4a42-a4c9-87e34de5cfd5",
           "group": "MainCamera",
           "tags": "MainCamera Layer0",
           "components": [
@@ -1917,11 +1304,11 @@
               "alias": "camera",
               "type": 0,
               "culling": -1,
-              "clearflags": 1,
+              "clearflags": 2,
               "renderlist": null,
               "maincamera": true,
               "perspectiveyfov": 1.04719758,
-              "perspectiveaspect": 1.821246,
+              "perspectiveaspect": 1.77987421,
               "perspectivezfar": 2011,
               "perspectiveznear": 0.3
             },
@@ -2001,7 +1388,7 @@
                     "fullscreenViewport": true
                   },
                   "glowLayerProperties": {
-                    "glowEnabled": true,
+                    "glowEnabled": false,
                     "glowIntensity": 1,
                     "blurKernelSize": 16
                   },
@@ -2073,109 +1460,55 @@
     },
     {
       "children": [
-        4
+        12
       ],
-      "mesh": 1,
+      "rotation": [
+        0.0,
+        -0.789970934,
+        0.0,
+        0.6131443
+      ],
+      "scale": [
+        0.99999994,
+        1.0,
+        0.99999994
+      ],
       "translation": [
-        0.155433416,
-        -0.646,
-        0.0129004717
+        1.54,
+        1.28,
+        -2.21
       ],
-      "name": "Plane",
+      "name": "Porsche_911 (2)",
       "extras": {
         "metadata": {
-          "guid": "2f6aac4b-68a5-4630-ad2c-b5bdf5eac608",
-          "visible": false,
-          "visibility": 0.5,
-          "navigation": {
-            "area": 0,
-            "links": null
-          },
-          "lightmapped": true,
-          "tags": "Untagged NavigationStatic Layer0",
-          "physics": {
-            "type": "rigidbody",
-            "root": false,
-            "mass": 0,
-            "ldrag": 0,
-            "adrag": 0.05,
-            "center": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "freeze": {
-              "positionx": false,
-              "positiony": false,
-              "positionz": false,
-              "rotationx": false,
-              "rotationy": false,
-              "rotationz": false
-            },
-            "gravity": false
-          },
-          "collision": {
-            "type": "MeshCollider",
-            "entity": "Plane",
-            "center": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "trigger": false,
-            "boxsize": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "segments": 24,
-            "compound": false,
-            "convexmesh": false,
-            "capsulesize": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "sphereradius": 0.0,
-            "restitution": 0.0,
-            "dynamicfriction": 0.6,
-            "staticfriction": 0.6,
-            "wheelinformation": null
-          },
-          "renderer": {
-            "castshadows": false,
-            "receiveshadows": true,
-            "usevertexcolors": false,
-            "istriggervolume": false,
-            "checkcollisions": true,
-            "freezeworldmatrix": true,
-            "setmeshpickable": true,
-            "cullingstrategy": 0,
-            "showboundingbox": false,
-            "defaultellipsoid": {
-              "x": 0.5,
-              "y": 1.0,
-              "z": 0.5
-            },
-            "ellipsoidoffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "rendergroupid": 0,
-            "layermask": 1
-          },
+          "guid": "03cac188-efa9-4d39-b4f1-b2af15f36c5d",
           "components": [
             {
               "alias": "script",
               "order": -1,
-              "klass": "BABYLON.RigidbodyPhysics",
+              "klass": "BABYLON.AnimationState",
               "properties": {
-                "mass": 0,
-                "drag": 0,
-                "angularDrag": 0.05,
-                "useGravity": false,
-                "isKinematic": true
+                "legacy": false,
+                "default": null,
+                "machine": {
+                  "hash": 0,
+                  "auto": true,
+                  "speed": 1.0,
+                  "legacy": false,
+                  "layers": [],
+                  "states": [],
+                  "entries": [],
+                  "parameters": null,
+                  "transitions": []
+                },
+                "autoplay": true,
+                "updatemode": 0,
+                "hasrootmotion": false,
+                "applyrootmotion": false,
+                "runtimecontroller": null,
+                "hastransformhierarchy": true,
+                "leftfeetbottomheight": 0.0,
+                "rightfeetbottomheight": 0.0
               },
               "instance": null
             }
@@ -2184,24 +1517,134 @@
       }
     },
     {
-      "mesh": 0,
-      "name": "Plane.Detail",
+      "children": [
+        13
+      ],
+      "rotation": [
+        -0.7071068,
+        0.0,
+        0.0,
+        -0.7071068
+      ],
+      "name": "RootNode (gltf orientation matrix)",
       "extras": {
         "metadata": {
-          "guid": "2f6aac4b-68a5-4630-ad2c-b5bdf5eac608",
-          "navigation": {
-            "area": 0,
-            "links": null
-          },
-          "lightmapped": true,
-          "tags": "DetailMesh NavigationStatic Layer0",
+          "guid": "cfdf857b-a361-4ddd-a6db-7882a1876894"
+        }
+      }
+    },
+    {
+      "children": [
+        14
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        0.5784255,
+        0.5784255,
+        0.5784255
+      ],
+      "translation": [
+        -0.0152851678,
+        -0.06289219,
+        0.009155914
+      ],
+      "name": "RootNode (model correction matrix)",
+      "extras": {
+        "metadata": {
+          "guid": "75270b1f-c68d-4e66-a654-5ea8df1f025f"
+        }
+      }
+    },
+    {
+      "children": [
+        15,
+        17,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        35,
+        37,
+        39,
+        43,
+        45,
+        47,
+        51,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        69,
+        71,
+        73,
+        75,
+        77,
+        79,
+        81,
+        83,
+        85,
+        87,
+        89,
+        91,
+        92
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "Root",
+      "extras": {
+        "metadata": {
+          "guid": "8de02965-f673-40ea-a068-f84ff86c466c"
+        }
+      }
+    },
+    {
+      "children": [
+        16
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "window_rear",
+      "extras": {
+        "metadata": {
+          "guid": "2b3bd21d-3597-4e9b-9770-4aef5b3a7565"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "window_rear_0",
+      "extras": {
+        "metadata": {
+          "guid": "9279f896-7ca9-47fb-9810-821f77d9ad86",
           "renderer": {
-            "castshadows": false,
+            "castshadows": true,
             "receiveshadows": true,
             "usevertexcolors": false,
             "istriggervolume": false,
             "checkcollisions": false,
-            "freezeworldmatrix": true,
+            "freezeworldmatrix": false,
             "setmeshpickable": true,
             "cullingstrategy": 0,
             "showboundingbox": false,
@@ -2222,78 +1665,45 @@
       }
     },
     {
-      "mesh": 2,
-      "translation": [
-        -1.56999993,
-        5.06999969,
-        0.459999979
+      "children": [
+        18,
+        19
       ],
-      "name": "Sphere (1)",
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        0.0,
+        -0.00319,
+        -0.00719
+      ],
+      "name": "windshield",
       "extras": {
         "metadata": {
-          "guid": "92902578-94d0-4182-a301-7d15381ded99",
-          "buffers": {
-            "floats": [],
-            "colors": [],
-            "vector2": [],
-            "vector3": [],
-            "vector4": []
-          },
-          "physics": {
-            "type": "rigidbody",
-            "root": false,
-            "mass": 1.0,
-            "ldrag": 0.0,
-            "adrag": 0.05,
-            "center": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "freeze": {
-              "positionx": false,
-              "positiony": false,
-              "positionz": false,
-              "rotationx": false,
-              "rotationy": false,
-              "rotationz": false
-            },
-            "gravity": true
-          },
-          "collision": {
-            "type": "SphereCollider",
-            "entity": "Sphere (1)",
-            "center": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "trigger": false,
-            "boxsize": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "segments": 24,
-            "compound": false,
-            "convexmesh": false,
-            "capsulesize": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "sphereradius": 0.5,
-            "restitution": 1.0,
-            "dynamicfriction": 0.6,
-            "staticfriction": 0.6,
-            "wheelinformation": null
-          },
+          "guid": "0d2b7ee7-ab10-49cd-b126-63048f4b2981"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "windshield_0",
+      "extras": {
+        "metadata": {
+          "guid": "6cf9b8b8-ab1e-4458-9817-580fd523d865",
           "renderer": {
             "castshadows": true,
             "receiveshadows": true,
             "usevertexcolors": false,
             "istriggervolume": false,
-            "checkcollisions": true,
+            "checkcollisions": false,
             "freezeworldmatrix": false,
             "setmeshpickable": true,
             "cullingstrategy": 0,
@@ -2310,57 +1720,2259 @@
             },
             "rendergroupid": 0,
             "layermask": 1
-          },
-          "components": [
-            {
-              "alias": "script",
-              "order": -1,
-              "klass": "BABYLON.RigidbodyPhysics",
-              "properties": {
-                "mass": 1.0,
-                "drag": 0.0,
-                "angularDrag": 0.05,
-                "useGravity": true,
-                "isKinematic": false
-              },
-              "instance": null
-            }
-          ]
+          }
         }
       }
     },
     {
       "rotation": [
-        0.228944957,
-        0.8612832,
-        0.076957,
-        0.447049379
+        0.0,
+        0.0,
+        0.0,
+        -1.0
       ],
-      "scale": [
-        1.00000012,
-        1.0,
-        1.00000012
-      ],
-      "translation": [
-        -2.92,
-        1.36,
-        3.3
-      ],
-      "name": "Directional Light (1)",
+      "name": "windshield_1",
       "extras": {
         "metadata": {
-          "guid": "c917b734-8a58-4c10-a491-a9638aee3930",
+          "guid": "bccedbe9-9c40-4331-8a0f-649b0753446e",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        21
+      ],
+      "rotation": [
+        -0.667798936,
+        0.024878636,
+        -0.456830382,
+        -0.587138534
+      ],
+      "scale": [
+        0.0244268,
+        0.0244280361,
+        0.0244264677
+      ],
+      "translation": [
+        -1.05305,
+        3.51025,
+        0.1259
+      ],
+      "name": "Plane.002",
+      "extras": {
+        "metadata": {
+          "guid": "ea35917d-6fe9-4140-9521-dd335c859906"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "Plane.002_0",
+      "extras": {
+        "metadata": {
+          "guid": "c2c45683-61a8-4b9e-b8aa-14347609c306",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        23
+      ],
+      "rotation": [
+        -0.6058352,
+        0.299281538,
+        -0.2551497,
+        -0.6915872
+      ],
+      "scale": [
+        0.02442387,
+        0.0244294982,
+        0.0244271979
+      ],
+      "translation": [
+        0.43627,
+        3.72335,
+        0.11696
+      ],
+      "name": "Plane.003",
+      "extras": {
+        "metadata": {
+          "guid": "749ce7d2-a78b-43e8-9c1e-080810808b72"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "Plane.003_0",
+      "extras": {
+        "metadata": {
+          "guid": "36f34af9-3561-4bf7-a57c-ce970b9ef378",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        25
+      ],
+      "rotation": [
+        -0.6048528,
+        0.238121286,
+        -0.3101543,
+        -0.693725944
+      ],
+      "scale": [
+        0.05913027,
+        0.0591329224,
+        0.0591338947
+      ],
+      "translation": [
+        -0.48751,
+        3.68437,
+        0.32849
+      ],
+      "name": "Plane.004",
+      "extras": {
+        "metadata": {
+          "guid": "cef6beba-a200-4dd6-a33b-10fc85bdc353"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "Plane.004_0",
+      "extras": {
+        "metadata": {
+          "guid": "f08437a0-d09b-4a71-8cb0-3cba73943401",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        27
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "boot",
+      "extras": {
+        "metadata": {
+          "guid": "2c39fd4a-13cc-46e6-bd44-84ae94987d7c"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "boot_0",
+      "extras": {
+        "metadata": {
+          "guid": "f36eefac-88b4-4568-ad6a-465266dd94e5",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        29
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "underbody",
+      "extras": {
+        "metadata": {
+          "guid": "fcdcb20e-3b5f-4803-808c-121969543db9"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "underbody_0",
+      "extras": {
+        "metadata": {
+          "guid": "d90cce55-265b-43c4-b3aa-505a2ffdebe4",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        31,
+        32,
+        33,
+        34
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        -0.02935
+      ],
+      "name": "Cylinder.000",
+      "extras": {
+        "metadata": {
+          "guid": "56ee6d49-b611-430c-9e33-27308f73a0ca"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "Cylinder.000_0",
+      "extras": {
+        "metadata": {
+          "guid": "548cdab2-bdb9-4c96-8170-13396b1d9f86",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "Cylinder.000_1",
+      "extras": {
+        "metadata": {
+          "guid": "82a05497-024d-469c-b327-3e57c88ec5fb",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "Cylinder.000_2",
+      "extras": {
+        "metadata": {
+          "guid": "a2fd8159-9876-49e6-adc0-74159ba7fa1d",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "Cylinder.000_3",
+      "extras": {
+        "metadata": {
+          "guid": "03a89bd7-6f85-4721-8f41-3e7c94b5f7d8",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        36
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        6.9534,
+        9.78514,
+        7.49598
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        1.05402
+      ],
+      "name": "Plane",
+      "extras": {
+        "metadata": {
+          "guid": "dd8c10bb-6b87-4c5d-8ddf-e2552a4c6389"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "Plane_0",
+      "extras": {
+        "metadata": {
+          "guid": "84b6dbb3-e966-4e42-b711-152b0deccfc2",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        38
+      ],
+      "rotation": [
+        0.348390549,
+        0.009529427,
+        0.12669836,
+        -0.9286984
+      ],
+      "scale": [
+        0.0142600033,
+        0.0142574254,
+        0.0119012017
+      ],
+      "translation": [
+        0.03582,
+        -1.56003,
+        -0.33303
+      ],
+      "name": "Cube.001",
+      "extras": {
+        "metadata": {
+          "guid": "ec809d41-a277-46b1-b464-b2c61c2ffcf6"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "Cube.001_0",
+      "extras": {
+        "metadata": {
+          "guid": "30507f4c-a9a5-47da-b894-c7072a7d4c5a",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        40,
+        41,
+        42
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "bumper_front.004",
+      "extras": {
+        "metadata": {
+          "guid": "8d36af4b-432d-4ab9-bcfc-78394f8aede7"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "bumper_front.004_0",
+      "extras": {
+        "metadata": {
+          "guid": "8ba3ae8e-e3aa-446e-9a31-3f589ebec424",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "bumper_front.004_1",
+      "extras": {
+        "metadata": {
+          "guid": "6f6de9c5-4b24-439d-8a33-b7456239b4c6",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "bumper_front.004_2",
+      "extras": {
+        "metadata": {
+          "guid": "da937081-13af-473d-84e9-c299b4fd2df6",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        44
+      ],
+      "rotation": [
+        -0.00302683841,
+        0.0,
+        0.0,
+        -0.9999954
+      ],
+      "scale": [
+        1.03574,
+        1.035739,
+        1.035739
+      ],
+      "name": "bumper_front.007",
+      "extras": {
+        "metadata": {
+          "guid": "170d43b9-10c2-4d8a-b5cc-61026de2af43"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "bumper_front.007_0",
+      "extras": {
+        "metadata": {
+          "guid": "0e3ea600-4807-4c8e-a8cb-3d65f6840a4c",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        46
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "bumper_front.009",
+      "extras": {
+        "metadata": {
+          "guid": "b2edef29-a2db-40ab-9466-8091911631ac"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "bumper_front.009_0",
+      "extras": {
+        "metadata": {
+          "guid": "6dd91eea-2aae-482a-98de-03abcf85e647",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        48,
+        49,
+        50
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "bumper_front.001",
+      "extras": {
+        "metadata": {
+          "guid": "f5381dc6-1bc4-4d2b-9504-9477bc5a5a8c"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "bumper_front.001_0",
+      "extras": {
+        "metadata": {
+          "guid": "e474e166-4869-4ff9-8e51-8189c3731656",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "bumper_front.001_1",
+      "extras": {
+        "metadata": {
+          "guid": "2ce9d053-5672-4d4d-a8ac-5e1250015593",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "bumper_front.001_2",
+      "extras": {
+        "metadata": {
+          "guid": "6fe503f1-8634-40fe-88a6-22b37199b594",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        52,
+        53
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "bumper_front.003",
+      "extras": {
+        "metadata": {
+          "guid": "3ccc4ecf-0d7d-4113-8b3b-e6f7f653f681"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "bumper_front.003_0",
+      "extras": {
+        "metadata": {
+          "guid": "ecad24b5-ae69-498b-944c-e64745544648",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "bumper_front.003_1",
+      "extras": {
+        "metadata": {
+          "guid": "bb20ae57-2a94-4300-ab58-89cc9c686fa4",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        55
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "boot.001",
+      "extras": {
+        "metadata": {
+          "guid": "fc63b0bf-ddb1-4830-9a65-b5e36a49a8e4"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "boot.001_0",
+      "extras": {
+        "metadata": {
+          "guid": "7b7f87d6-f05b-4872-83c7-b6d868974364",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        57
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "boot.002",
+      "extras": {
+        "metadata": {
+          "guid": "03427d42-46da-44dc-846c-99ca9147efd3"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "boot.002_0",
+      "extras": {
+        "metadata": {
+          "guid": "30b69308-25eb-4b03-a0eb-bc981e168078",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        59
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        0.00535,
+        3.58116,
+        -0.10747
+      ],
+      "name": "Plane.001",
+      "extras": {
+        "metadata": {
+          "guid": "e418f1ac-f10f-44d1-9199-5f6de72d3ed3"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "Plane.001_0",
+      "extras": {
+        "metadata": {
+          "guid": "2da46784-eba6-4c15-9b20-3ffc80bb3db4",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        61
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        0.0,
+        0.00264,
+        0.0
+      ],
+      "name": "boot.003",
+      "extras": {
+        "metadata": {
+          "guid": "227cc092-cc37-4c20-983b-e94f929557c0"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "boot.003_0",
+      "extras": {
+        "metadata": {
+          "guid": "9dcf5c5b-0cd9-4d9f-9c06-454f84e20c9e",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        63
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "boot.004",
+      "extras": {
+        "metadata": {
+          "guid": "9f3828c7-6018-48a0-9204-c72ee4f984e1"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "boot.004_0",
+      "extras": {
+        "metadata": {
+          "guid": "71446764-fdbe-4427-a248-35938e78588a",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        -0.02935
+      ],
+      "name": "Cylinder.001",
+      "extras": {
+        "metadata": {
+          "guid": "a98a4fbf-0859-468f-8f00-afa12c2191f4"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "Cylinder.001_0",
+      "extras": {
+        "metadata": {
+          "guid": "59c20144-b8ad-4dbe-bdf6-e7445c1f9995",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "Cylinder.001_1",
+      "extras": {
+        "metadata": {
+          "guid": "f030a019-6fcf-4dce-bae1-7897ca7f80db",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "Cylinder.001_2",
+      "extras": {
+        "metadata": {
+          "guid": "5c145eeb-4dbb-4dd5-852e-01eb07bb2618",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "Cylinder.001_3",
+      "extras": {
+        "metadata": {
+          "guid": "dfb105fc-c0ed-451d-94ad-23bb35dc8945",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        70
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "boot.005",
+      "extras": {
+        "metadata": {
+          "guid": "409959f0-2a25-4783-9bda-f2da6a2107c4"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "boot.005_0",
+      "extras": {
+        "metadata": {
+          "guid": "21109aa4-a150-41d6-bd74-13e375228bc7",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        72
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "boot.006",
+      "extras": {
+        "metadata": {
+          "guid": "1fbfea1e-5f4e-49d6-b696-db16427b70fc"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "boot.006_0",
+      "extras": {
+        "metadata": {
+          "guid": "50a1dc1e-422e-465b-832f-da6cf52a2b68",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        74
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "window_rear.001",
+      "extras": {
+        "metadata": {
+          "guid": "8c8a4cc9-e44e-4d34-bbb7-f44d99c00385"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "window_rear.001_0",
+      "extras": {
+        "metadata": {
+          "guid": "32825f10-7db3-468e-a332-0efe960383bb",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        76
+      ],
+      "rotation": [
+        0.302497,
+        -0.0620178543,
+        0.023274539,
+        -0.9508458
+      ],
+      "scale": [
+        0.999995947,
+        1.000006,
+        1.00000155
+      ],
+      "translation": [
+        -1.99939,
+        -4.41179,
+        -4.46771
+      ],
+      "name": "Hemi",
+      "extras": {
+        "metadata": {
+          "guid": "26ea9b46-3702-42a8-a5e2-870f60ba0a54"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "Hemi",
+      "extras": {
+        "metadata": {
+          "guid": "54de21ba-33dc-483c-a127-bc9db994cf14"
+        }
+      }
+    },
+    {
+      "children": [
+        78
+      ],
+      "rotation": [
+        -0.405526042,
+        0.6403502,
+        0.167865157,
+        -0.630334437
+      ],
+      "scale": [
+        0.999999166,
+        1.00000238,
+        1.00000322
+      ],
+      "translation": [
+        1.42703,
+        0.23691,
+        -2.62923
+      ],
+      "name": "Hemi.001",
+      "extras": {
+        "metadata": {
+          "guid": "2b6d0a89-cd84-4ae7-94b5-c0f3895b0e8c"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "Hemi.001",
+      "extras": {
+        "metadata": {
+          "guid": "0ddff593-5c1c-4c85-991d-793f77dece76"
+        }
+      }
+    },
+    {
+      "children": [
+        80
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "boot.007",
+      "extras": {
+        "metadata": {
+          "guid": "09d1e0e8-23bd-4b03-9485-c89f7641e364"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "boot.007_0",
+      "extras": {
+        "metadata": {
+          "guid": "efdc37ce-c440-4b53-b441-be1607cb5bd5",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        82
+      ],
+      "rotation": [
+        0.0568677,
+        0.0,
+        0.0,
+        -0.998381734
+      ],
+      "scale": [
+        0.39334,
+        0.393343568,
+        0.355610043
+      ],
+      "translation": [
+        0.0,
+        3.70428,
+        0.29221
+      ],
+      "name": "Plane.005",
+      "extras": {
+        "metadata": {
+          "guid": "3ab54554-a217-4b19-b74f-0803740e5a01"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "Plane.005_0",
+      "extras": {
+        "metadata": {
+          "guid": "1398b26f-0c87-4d8a-a091-0ca9a370d559",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        84
+      ],
+      "rotation": [
+        0.0,
+        -0.0407980978,
+        -0.999167442,
+        0.0
+      ],
+      "scale": [
+        0.39521,
+        0.3952056,
+        0.357299447
+      ],
+      "translation": [
+        0.0,
+        -3.75033,
+        0.43239
+      ],
+      "name": "Plane.006",
+      "extras": {
+        "metadata": {
+          "guid": "9f71bae6-19db-422e-a4b9-51cc64d7ab35"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "Plane.006_0",
+      "extras": {
+        "metadata": {
+          "guid": "e07daaee-3c18-41ac-a10f-0e9657a6001e",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        86
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "boot.008",
+      "extras": {
+        "metadata": {
+          "guid": "1c30e810-e197-400c-b15a-f8c0de4ed718"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "boot.008_0",
+      "extras": {
+        "metadata": {
+          "guid": "fd518d4e-b739-4050-80d8-adb870074e8c",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        88
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "boot.009",
+      "extras": {
+        "metadata": {
+          "guid": "9cbd6032-6c87-4043-aabb-da75b97676ce"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "boot.009_0",
+      "extras": {
+        "metadata": {
+          "guid": "43f5ed22-b070-4a51-9522-df79257bf079",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "children": [
+        90
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "boot.010",
+      "extras": {
+        "metadata": {
+          "guid": "1605e8ed-7fc5-4110-9ed2-fa19689a678f"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "boot.010_0",
+      "extras": {
+        "metadata": {
+          "guid": "cc8ba173-afca-4abc-9f9b-3290b76f4990",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "boot.011",
+      "extras": {
+        "metadata": {
+          "guid": "ceabe4ac-ecb9-4221-8256-d14a7f9c304f"
+        }
+      }
+    },
+    {
+      "children": [
+        93
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        0.33232,
+        0.31787,
+        0.31787
+      ],
+      "name": "Cube.002",
+      "extras": {
+        "metadata": {
+          "guid": "e2ed1ec6-03ef-4966-9ff2-1d47f0c720d0"
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "Cube.002_0",
+      "extras": {
+        "metadata": {
+          "guid": "7b5b80a6-691c-4e12-b017-b1d5611e59ed",
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          }
+        }
+      }
+    },
+    {
+      "rotation": [
+        0.408217877,
+        -0.234569684,
+        0.109381631,
+        0.8754261
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        0.99999994
+      ],
+      "translation": [
+        2.88143277,
+        50.0,
+        -3.15381455
+      ],
+      "name": "Directional Light",
+      "extras": {
+        "metadata": {
+          "guid": "8c9af458-f60c-4a54-abf5-691d78bdd6cc",
           "components": [
             {
               "alias": "light",
-              "type": 2,
+              "type": 0,
               "range": 10.0,
               "culling": -1,
               "clearflags": 0,
               "renderlist": null,
               "color": {
-                "r": 0.0,
-                "g": 0.519655943,
+                "r": 1.0,
+                "g": 1.0,
                 "b": 1.0,
                 "a": 1.0
               },
@@ -2370,8 +3982,8 @@
                 "b": 1.0,
                 "a": 1.0
               },
-              "intensity": 25.0,
-              "spotangle": 166.3,
+              "intensity": 3.0,
+              "spotangle": 30.0,
               "orthoscale": 0.1,
               "autorender": true,
               "numcascades": 4,
@@ -2381,17 +3993,17 @@
               "orthoright": 1.7976931348623157E+308,
               "orthotop": 1.7976931348623157E+308,
               "orthobottom": 1.7976931348623157E+308,
-              "softshadows": true,
+              "softshadows": false,
               "shadowmapsize": 2048,
               "shadowquality": "High",
-              "generateshadows": true,
+              "generateshadows": false,
               "shadowdistance": 150.0,
               "shadowstrength": 1.0,
               "shadowbiasfactor": 0.01,
               "normalbiasfactor": 0.0,
-              "shadowmapbias": 0.0,
-              "normalmapbias": 1.25,
-              "shadownearplane": 0.1,
+              "shadowmapbias": 0.05,
+              "normalmapbias": 0.4,
+              "shadownearplane": 0.2,
               "cascadelambda": 1.0,
               "twocascadesplit": 0.333333343,
               "fourcascadesplit": [
@@ -2425,888 +4037,6 @@
           ]
         }
       }
-    },
-    {
-      "mesh": 3,
-      "translation": [
-        -0.45,
-        5.06999969,
-        -0.46
-      ],
-      "name": "Sphere (2)",
-      "extras": {
-        "metadata": {
-          "guid": "e9c5ae1d-e83b-481b-9458-a94357f8a9ed",
-          "buffers": {
-            "floats": [],
-            "colors": [],
-            "vector2": [],
-            "vector3": [],
-            "vector4": []
-          },
-          "physics": {
-            "type": "rigidbody",
-            "root": false,
-            "mass": 1.0,
-            "ldrag": 0.0,
-            "adrag": 0.05,
-            "center": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "freeze": {
-              "positionx": false,
-              "positiony": false,
-              "positionz": false,
-              "rotationx": false,
-              "rotationy": false,
-              "rotationz": false
-            },
-            "gravity": true
-          },
-          "collision": {
-            "type": "SphereCollider",
-            "entity": "Sphere (2)",
-            "center": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "trigger": false,
-            "boxsize": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "segments": 24,
-            "compound": false,
-            "convexmesh": false,
-            "capsulesize": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "sphereradius": 0.5,
-            "restitution": 1.0,
-            "dynamicfriction": 0.6,
-            "staticfriction": 0.6,
-            "wheelinformation": null
-          },
-          "renderer": {
-            "castshadows": true,
-            "receiveshadows": true,
-            "usevertexcolors": false,
-            "istriggervolume": false,
-            "checkcollisions": true,
-            "freezeworldmatrix": false,
-            "setmeshpickable": true,
-            "cullingstrategy": 0,
-            "showboundingbox": false,
-            "defaultellipsoid": {
-              "x": 0.5,
-              "y": 1.0,
-              "z": 0.5
-            },
-            "ellipsoidoffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "rendergroupid": 0,
-            "layermask": 1
-          },
-          "components": [
-            {
-              "alias": "script",
-              "order": -1,
-              "klass": "BABYLON.RigidbodyPhysics",
-              "properties": {
-                "mass": 1.0,
-                "drag": 0.0,
-                "angularDrag": 0.05,
-                "useGravity": true,
-                "isKinematic": false
-              },
-              "instance": null
-            }
-          ]
-        }
-      }
-    },
-    {
-      "mesh": 4,
-      "translation": [
-        1.02,
-        5.06999969,
-        -0.46
-      ],
-      "name": "Sphere (3)",
-      "extras": {
-        "metadata": {
-          "guid": "e931cf1d-d969-4ee3-8413-1afe2898e927",
-          "buffers": {
-            "floats": [],
-            "colors": [],
-            "vector2": [],
-            "vector3": [],
-            "vector4": []
-          },
-          "physics": {
-            "type": "rigidbody",
-            "root": false,
-            "mass": 1.0,
-            "ldrag": 0.0,
-            "adrag": 0.05,
-            "center": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "freeze": {
-              "positionx": false,
-              "positiony": false,
-              "positionz": false,
-              "rotationx": false,
-              "rotationy": false,
-              "rotationz": false
-            },
-            "gravity": true
-          },
-          "collision": {
-            "type": "SphereCollider",
-            "entity": "Sphere (3)",
-            "center": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "trigger": false,
-            "boxsize": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "segments": 24,
-            "compound": false,
-            "convexmesh": false,
-            "capsulesize": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "sphereradius": 0.5,
-            "restitution": 1.0,
-            "dynamicfriction": 0.6,
-            "staticfriction": 0.6,
-            "wheelinformation": null
-          },
-          "renderer": {
-            "castshadows": true,
-            "receiveshadows": true,
-            "usevertexcolors": false,
-            "istriggervolume": false,
-            "checkcollisions": true,
-            "freezeworldmatrix": false,
-            "setmeshpickable": true,
-            "cullingstrategy": 0,
-            "showboundingbox": false,
-            "defaultellipsoid": {
-              "x": 0.5,
-              "y": 1.0,
-              "z": 0.5
-            },
-            "ellipsoidoffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "rendergroupid": 0,
-            "layermask": 1
-          },
-          "components": [
-            {
-              "alias": "script",
-              "order": -1,
-              "klass": "BABYLON.RigidbodyPhysics",
-              "properties": {
-                "mass": 1.0,
-                "drag": 0.0,
-                "angularDrag": 0.05,
-                "useGravity": true,
-                "isKinematic": false
-              },
-              "instance": null
-            }
-          ]
-        }
-      }
-    },
-    {
-      "mesh": 5,
-      "translation": [
-        -0.97,
-        6.12999964,
-        0.0
-      ],
-      "name": "Sphere (4)",
-      "extras": {
-        "metadata": {
-          "guid": "2a18d5c4-f3fa-4e23-8de8-fd33dba8b479",
-          "buffers": {
-            "floats": [],
-            "colors": [],
-            "vector2": [],
-            "vector3": [],
-            "vector4": []
-          },
-          "physics": {
-            "type": "rigidbody",
-            "root": false,
-            "mass": 1.0,
-            "ldrag": 0.0,
-            "adrag": 0.05,
-            "center": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "freeze": {
-              "positionx": false,
-              "positiony": false,
-              "positionz": false,
-              "rotationx": false,
-              "rotationy": false,
-              "rotationz": false
-            },
-            "gravity": true
-          },
-          "collision": {
-            "type": "SphereCollider",
-            "entity": "Sphere (4)",
-            "center": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "trigger": false,
-            "boxsize": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "segments": 24,
-            "compound": false,
-            "convexmesh": false,
-            "capsulesize": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "sphereradius": 0.5,
-            "restitution": 1.0,
-            "dynamicfriction": 0.6,
-            "staticfriction": 0.6,
-            "wheelinformation": null
-          },
-          "renderer": {
-            "castshadows": true,
-            "receiveshadows": true,
-            "usevertexcolors": false,
-            "istriggervolume": false,
-            "checkcollisions": true,
-            "freezeworldmatrix": false,
-            "setmeshpickable": true,
-            "cullingstrategy": 0,
-            "showboundingbox": false,
-            "defaultellipsoid": {
-              "x": 0.5,
-              "y": 1.0,
-              "z": 0.5
-            },
-            "ellipsoidoffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "rendergroupid": 0,
-            "layermask": 1
-          },
-          "components": [
-            {
-              "alias": "script",
-              "order": -1,
-              "klass": "BABYLON.RigidbodyPhysics",
-              "properties": {
-                "mass": 1.0,
-                "drag": 0.0,
-                "angularDrag": 0.05,
-                "useGravity": true,
-                "isKinematic": false
-              },
-              "instance": null
-            }
-          ]
-        }
-      }
-    },
-    {
-      "mesh": 6,
-      "translation": [
-        0.459999979,
-        6.12999964,
-        0.459999979
-      ],
-      "name": "Sphere (5)",
-      "extras": {
-        "metadata": {
-          "guid": "7b0d7894-864b-4dec-a1b1-af4a4c165cfd",
-          "buffers": {
-            "floats": [],
-            "colors": [],
-            "vector2": [],
-            "vector3": [],
-            "vector4": []
-          },
-          "physics": {
-            "type": "rigidbody",
-            "root": false,
-            "mass": 1.0,
-            "ldrag": 0.0,
-            "adrag": 0.05,
-            "center": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "freeze": {
-              "positionx": false,
-              "positiony": false,
-              "positionz": false,
-              "rotationx": false,
-              "rotationy": false,
-              "rotationz": false
-            },
-            "gravity": true
-          },
-          "collision": {
-            "type": "SphereCollider",
-            "entity": "Sphere (5)",
-            "center": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "trigger": false,
-            "boxsize": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "segments": 24,
-            "compound": false,
-            "convexmesh": false,
-            "capsulesize": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "sphereradius": 0.5,
-            "restitution": 1.0,
-            "dynamicfriction": 0.6,
-            "staticfriction": 0.6,
-            "wheelinformation": null
-          },
-          "renderer": {
-            "castshadows": true,
-            "receiveshadows": true,
-            "usevertexcolors": false,
-            "istriggervolume": false,
-            "checkcollisions": true,
-            "freezeworldmatrix": false,
-            "setmeshpickable": true,
-            "cullingstrategy": 0,
-            "showboundingbox": false,
-            "defaultellipsoid": {
-              "x": 0.5,
-              "y": 1.0,
-              "z": 0.5
-            },
-            "ellipsoidoffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "rendergroupid": 0,
-            "layermask": 1
-          },
-          "components": [
-            {
-              "alias": "script",
-              "order": -1,
-              "klass": "BABYLON.RigidbodyPhysics",
-              "properties": {
-                "mass": 1.0,
-                "drag": 0.0,
-                "angularDrag": 0.05,
-                "useGravity": true,
-                "isKinematic": false
-              },
-              "instance": null
-            }
-          ]
-        }
-      }
-    },
-    {
-      "mesh": 7,
-      "translation": [
-        1.73,
-        6.12999964,
-        0.0
-      ],
-      "name": "Sphere (6)",
-      "extras": {
-        "metadata": {
-          "guid": "bbda70d2-fc0e-4076-b0cd-9025a40e2682",
-          "buffers": {
-            "floats": [],
-            "colors": [],
-            "vector2": [],
-            "vector3": [],
-            "vector4": []
-          },
-          "physics": {
-            "type": "rigidbody",
-            "root": false,
-            "mass": 1.0,
-            "ldrag": 0.0,
-            "adrag": 0.05,
-            "center": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "freeze": {
-              "positionx": false,
-              "positiony": false,
-              "positionz": false,
-              "rotationx": false,
-              "rotationy": false,
-              "rotationz": false
-            },
-            "gravity": true
-          },
-          "collision": {
-            "type": "SphereCollider",
-            "entity": "Sphere (6)",
-            "center": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "trigger": false,
-            "boxsize": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "segments": 24,
-            "compound": false,
-            "convexmesh": false,
-            "capsulesize": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "sphereradius": 0.5,
-            "restitution": 1.0,
-            "dynamicfriction": 0.6,
-            "staticfriction": 0.6,
-            "wheelinformation": null
-          },
-          "renderer": {
-            "castshadows": true,
-            "receiveshadows": true,
-            "usevertexcolors": false,
-            "istriggervolume": false,
-            "checkcollisions": true,
-            "freezeworldmatrix": false,
-            "setmeshpickable": true,
-            "cullingstrategy": 0,
-            "showboundingbox": false,
-            "defaultellipsoid": {
-              "x": 0.5,
-              "y": 1.0,
-              "z": 0.5
-            },
-            "ellipsoidoffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "rendergroupid": 0,
-            "layermask": 1
-          },
-          "components": [
-            {
-              "alias": "script",
-              "order": -1,
-              "klass": "BABYLON.RigidbodyPhysics",
-              "properties": {
-                "mass": 1.0,
-                "drag": 0.0,
-                "angularDrag": 0.05,
-                "useGravity": true,
-                "isKinematic": false
-              },
-              "instance": null
-            }
-          ]
-        }
-      }
-    },
-    {
-      "mesh": 8,
-      "rotation": [
-        0.0,
-        0.17688109,
-        0.0,
-        0.9842323
-      ],
-      "translation": [
-        -1.62,
-        7.43,
-        -0.96
-      ],
-      "name": "Sphere (7)",
-      "extras": {
-        "metadata": {
-          "guid": "e76b94db-6671-4b27-9288-6a9b5c656605",
-          "buffers": {
-            "floats": [],
-            "colors": [],
-            "vector2": [],
-            "vector3": [],
-            "vector4": []
-          },
-          "physics": {
-            "type": "rigidbody",
-            "root": false,
-            "mass": 1.0,
-            "ldrag": 0.0,
-            "adrag": 0.05,
-            "center": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "freeze": {
-              "positionx": false,
-              "positiony": false,
-              "positionz": false,
-              "rotationx": false,
-              "rotationy": false,
-              "rotationz": false
-            },
-            "gravity": true
-          },
-          "collision": {
-            "type": "SphereCollider",
-            "entity": "Sphere (7)",
-            "center": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "trigger": false,
-            "boxsize": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "segments": 24,
-            "compound": false,
-            "convexmesh": false,
-            "capsulesize": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "sphereradius": 0.5,
-            "restitution": 1.0,
-            "dynamicfriction": 0.6,
-            "staticfriction": 0.6,
-            "wheelinformation": null
-          },
-          "renderer": {
-            "castshadows": true,
-            "receiveshadows": true,
-            "usevertexcolors": false,
-            "istriggervolume": false,
-            "checkcollisions": true,
-            "freezeworldmatrix": false,
-            "setmeshpickable": true,
-            "cullingstrategy": 0,
-            "showboundingbox": false,
-            "defaultellipsoid": {
-              "x": 0.5,
-              "y": 1.0,
-              "z": 0.5
-            },
-            "ellipsoidoffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "rendergroupid": 0,
-            "layermask": 1
-          },
-          "components": [
-            {
-              "alias": "script",
-              "order": -1,
-              "klass": "BABYLON.RigidbodyPhysics",
-              "properties": {
-                "mass": 1.0,
-                "drag": 0.0,
-                "angularDrag": 0.05,
-                "useGravity": true,
-                "isKinematic": false
-              },
-              "instance": null
-            }
-          ]
-        }
-      }
-    },
-    {
-      "mesh": 9,
-      "rotation": [
-        0.0,
-        0.17688109,
-        0.0,
-        0.9842323
-      ],
-      "translation": [
-        -0.19,
-        7.43,
-        -0.5
-      ],
-      "name": "Sphere (8)",
-      "extras": {
-        "metadata": {
-          "guid": "1d23cadb-951b-4e99-afe2-975568537cf2",
-          "buffers": {
-            "floats": [],
-            "colors": [],
-            "vector2": [],
-            "vector3": [],
-            "vector4": []
-          },
-          "physics": {
-            "type": "rigidbody",
-            "root": false,
-            "mass": 1.0,
-            "ldrag": 0.0,
-            "adrag": 0.05,
-            "center": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "freeze": {
-              "positionx": false,
-              "positiony": false,
-              "positionz": false,
-              "rotationx": false,
-              "rotationy": false,
-              "rotationz": false
-            },
-            "gravity": true
-          },
-          "collision": {
-            "type": "SphereCollider",
-            "entity": "Sphere (8)",
-            "center": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "trigger": false,
-            "boxsize": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "segments": 24,
-            "compound": false,
-            "convexmesh": false,
-            "capsulesize": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "sphereradius": 0.5,
-            "restitution": 1.0,
-            "dynamicfriction": 0.6,
-            "staticfriction": 0.6,
-            "wheelinformation": null
-          },
-          "renderer": {
-            "castshadows": true,
-            "receiveshadows": true,
-            "usevertexcolors": false,
-            "istriggervolume": false,
-            "checkcollisions": true,
-            "freezeworldmatrix": false,
-            "setmeshpickable": true,
-            "cullingstrategy": 0,
-            "showboundingbox": false,
-            "defaultellipsoid": {
-              "x": 0.5,
-              "y": 1.0,
-              "z": 0.5
-            },
-            "ellipsoidoffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "rendergroupid": 0,
-            "layermask": 1
-          },
-          "components": [
-            {
-              "alias": "script",
-              "order": -1,
-              "klass": "BABYLON.RigidbodyPhysics",
-              "properties": {
-                "mass": 1.0,
-                "drag": 0.0,
-                "angularDrag": 0.05,
-                "useGravity": true,
-                "isKinematic": false
-              },
-              "instance": null
-            }
-          ]
-        }
-      }
-    },
-    {
-      "mesh": 10,
-      "rotation": [
-        0.0,
-        0.17688109,
-        0.0,
-        0.9842323
-      ],
-      "translation": [
-        1.08,
-        7.43,
-        -0.96
-      ],
-      "name": "Sphere (9)",
-      "extras": {
-        "metadata": {
-          "guid": "f54f36b5-8dea-44f3-82aa-7649ee146786",
-          "buffers": {
-            "floats": [],
-            "colors": [],
-            "vector2": [],
-            "vector3": [],
-            "vector4": []
-          },
-          "physics": {
-            "type": "rigidbody",
-            "root": false,
-            "mass": 1.0,
-            "ldrag": 0.0,
-            "adrag": 0.05,
-            "center": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "freeze": {
-              "positionx": false,
-              "positiony": false,
-              "positionz": false,
-              "rotationx": false,
-              "rotationy": false,
-              "rotationz": false
-            },
-            "gravity": true
-          },
-          "collision": {
-            "type": "SphereCollider",
-            "entity": "Sphere (9)",
-            "center": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "trigger": false,
-            "boxsize": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "segments": 24,
-            "compound": false,
-            "convexmesh": false,
-            "capsulesize": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "sphereradius": 0.5,
-            "restitution": 1.0,
-            "dynamicfriction": 0.6,
-            "staticfriction": 0.6,
-            "wheelinformation": null
-          },
-          "renderer": {
-            "castshadows": true,
-            "receiveshadows": true,
-            "usevertexcolors": false,
-            "istriggervolume": false,
-            "checkcollisions": true,
-            "freezeworldmatrix": false,
-            "setmeshpickable": true,
-            "cullingstrategy": 0,
-            "showboundingbox": false,
-            "defaultellipsoid": {
-              "x": 0.5,
-              "y": 1.0,
-              "z": 0.5
-            },
-            "ellipsoidoffset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            },
-            "rendergroupid": 0,
-            "layermask": 1
-          },
-          "components": [
-            {
-              "alias": "script",
-              "order": -1,
-              "klass": "BABYLON.RigidbodyPhysics",
-              "properties": {
-                "mass": 1.0,
-                "drag": 0.0,
-                "angularDrag": 0.05,
-                "useGravity": true,
-                "isKinematic": false
-              },
-              "instance": null
-            }
-          ]
-        }
-      }
     }
   ],
   "samplers": [
@@ -3317,9 +4047,10 @@
       "minFilter": 9985
     },
     {
-      "minFilter": 9985,
-      "WrapS": 33071,
-      "WrapT": 33071
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
     },
     {
       "minFilter": 9985
@@ -3331,18 +4062,9 @@
       "nodes": [
         0,
         1,
-        2,
-        3,
-        5,
-        6,
-        7,
-        8,
-        9,
         10,
         11,
-        12,
-        13,
-        14
+        94
       ],
       "name": "SampleScene",
       "extras": {
@@ -3456,15 +4178,15 @@
           },
           "autoclear": true,
           "clearcolor": {
-            "r": 0.192156866,
-            "g": 0.3019608,
-            "b": 0.4745098,
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0,
             "a": 1.0
           },
           "sunposition": {
-            "x": 1.04,
+            "x": 2.88143277,
             "y": 50.0,
-            "z": -1.91
+            "z": -3.15381455
           },
           "sunrotation": {
             "x": 0.408217877,
@@ -3483,7 +4205,7 @@
             "contrast": 1.0,
             "exposure": 1.0
           },
-          "ambientlightintensity": 1.0,
+          "ambientlightintensity": 0.0,
           "ambientspecularcolor": {
             "r": 0.0,
             "g": 0.0,
@@ -3491,15 +4213,15 @@
             "a": 1.0
           },
           "ambientgroundcolor": {
-            "r": 0.575300157,
-            "g": 0.567777157,
-            "b": 0.5606284,
+            "r": 0.5,
+            "g": 0.5,
+            "b": 0.5,
             "a": 1.0
           },
           "ambientskycolor": {
-            "r": 0.569617867,
-            "g": 0.609120965,
-            "b": 0.6881134,
+            "r": 0.5,
+            "g": 0.5,
+            "b": 0.5,
             "a": 1.0
           },
           "ambientcoloring": {
@@ -3520,67 +4242,7 @@
           },
           "fogstart": 0.0,
           "fogend": 300.0,
-          "skybox": {
-            "skyfog": false,
-            "skytags": "",
-            "skysize": 2000.0,
-            "skysrgb": false,
-            "skyfaces": "png",
-            "basename": "assets/Default-Skybox",
-            "anisolevel": 2,
-            "exposure": 1.3,
-            "rotation": 0.0,
-            "maxreflect": true,
-            "hdrskybox": false,
-            "rendergroup": 0,
-            "extensions": [
-              "_px.png",
-              "_py.png",
-              "_pz.png",
-              "_nx.png",
-              "_ny.png",
-              "_nz.png"
-            ],
-            "polynomial": 0.01,
-            "environment": {
-              "type": "image/dds",
-              "name": "Default-Skybox",
-              "info": {
-                "prefiltered": true,
-                "customType": "BABYLON.CubeTexture",
-                "filtered": true,
-                "boundingBoxSize": null,
-                "boundingBoxPosition": null,
-                "name": "Default-Skybox_env.dds",
-                "level": 1.0,
-                "hasAlpha": false,
-                "getAlphaFromRGB": false,
-                "coordinatesMode": 3,
-                "isCube": true,
-                "uOffset": 0.0,
-                "vOffset": 0.0,
-                "uScale": 1.0,
-                "vScale": 1.0,
-                "uAng": 0.0,
-                "vAng": 0.0,
-                "wAng": 0.0,
-                "wrapU": 1,
-                "wrapV": 1,
-                "coordinatesIndex": 0,
-                "isRenderTarget": false,
-                "renderTargetSize": 0,
-                "mirrorPlane": null,
-                "renderList": null,
-                "animations": null,
-                "extensions": null,
-                "samplingMode": 7,
-                "noMipmap": false,
-                "rooturl": "assets/"
-              },
-              "level": 1.0,
-              "url": "assets/Default-Skybox_env.dds"
-            }
-          }
+          "skybox": null
         }
       }
     }
@@ -3589,22 +4251,27 @@
     {
       "sampler": 0,
       "source": 0,
-      "name": "Grid"
+      "name": "sky_m_baseColor_0"
     },
     {
       "sampler": 1,
       "source": 1,
-      "name": "d71152629a0450acb42bf4a44595dfed 1"
+      "name": "textureAtlas_m_baseColor_1"
     },
     {
       "sampler": 2,
       "source": 2,
-      "name": "SampleScene_Lightmap-0_comp_light"
+      "name": "textureAtlas_m_metallicRoughness_2_metal"
     },
     {
       "sampler": 3,
       "source": 3,
-      "name": "Amiga"
+      "name": "textureAtlas_m_metallicRoughness_2_occlusion"
+    },
+    {
+      "sampler": 4,
+      "source": 4,
+      "name": "environmentAtlas_m_baseColor_3"
     }
   ]
 }
