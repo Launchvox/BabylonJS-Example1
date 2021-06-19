@@ -688,6 +688,43 @@ declare module BABYLON {
         static SetXboxLiveSignOutHandler(handler?: (result: Microsoft.Xbox.Services.System.SignOutCompletedEventArgs) => void): void;
     }
 }
+declare module PROJECT {
+    /**
+    * Babylon Script Component
+    * @class LookAtTargetForCamera
+    */
+    class LookAtTargetForCamera extends BABYLON.ScriptComponent {
+        private cam;
+        target: any;
+        private verticalAxis;
+        private horizontalAxis;
+        protected awake(): void;
+        protected start(): void;
+        protected update(): void;
+        protected late(): void;
+        protected after(): void;
+        protected fixed(): void;
+        protected ready(): void;
+        protected destroy(): void;
+    }
+}
+declare module PROJECT {
+    /**
+    * Babylon Script Component
+    * @class MeshLookAt
+    */
+    class MeshLookAt extends BABYLON.ScriptComponent {
+        target: BABYLON.TransformNode;
+        protected awake(): void;
+        protected start(): void;
+        protected update(): void;
+        protected late(): void;
+        protected after(): void;
+        protected fixed(): void;
+        protected ready(): void;
+        protected destroy(): void;
+    }
+}
 declare module BABYLON {
     /**
      * Babylon animation state pro class (Unity Style Mechanim Animation System)

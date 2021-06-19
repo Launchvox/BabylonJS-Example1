@@ -2896,6 +2896,110 @@ var BABYLON;
     }());
     BABYLON.WindowsPlatform = WindowsPlatform;
 })(BABYLON || (BABYLON = {}));
+var PROJECT;
+(function (PROJECT) {
+    /**
+    * Babylon Script Component
+    * @class LookAtTargetForCamera
+    */
+    var LookAtTargetForCamera = /** @class */ (function (_super) {
+        __extends(LookAtTargetForCamera, _super);
+        function LookAtTargetForCamera() {
+            var _this = _super !== null && _super.apply(this, arguments) || this;
+            // Example: private helloWorld:string = "Hello World";
+            _this.cam = null;
+            _this.target = null;
+            _this.verticalAxis = null;
+            _this.horizontalAxis = null;
+            return _this;
+        }
+        // Example: private helloWorld:string = "Hello World";
+        LookAtTargetForCamera.prototype.awake = function () {
+            /* Init component function */
+            var _target = this.getProperty("target");
+            if (_target != null) {
+                this.target = BABYLON.Utilities.ParseTransformByID(_target, this.scene);
+            }
+            this.cam = this.getCameraRig();
+        };
+        LookAtTargetForCamera.prototype.start = function () {
+            /* Start render loop function */
+        };
+        LookAtTargetForCamera.prototype.update = function () {
+            this.verticalAxis = BABYLON.SceneManager.GetUserInput(BABYLON.UserInputAxis.Vertical, BABYLON.PlayerNumber.One);
+            this.horizontalAxis = BABYLON.SceneManager.GetUserInput(BABYLON.UserInputAxis.Horizontal, BABYLON.PlayerNumber.One);
+            /* Update render loop function */
+        };
+        LookAtTargetForCamera.prototype.late = function () {
+            /* Late update render loop function */
+        };
+        LookAtTargetForCamera.prototype.after = function () {
+            /* After update render loop function */
+            if (this.target != null) {
+                this.cam.setTarget(this.target.position);
+            }
+            this.cam.position = new BABYLON.Vector3(this.cam.position.x, this.cam.position.y, this.cam.position.z);
+        };
+        LookAtTargetForCamera.prototype.fixed = function () {
+            /* Fixed update physics step function */
+        };
+        LookAtTargetForCamera.prototype.ready = function () {
+            /* Execute when scene is ready function */
+        };
+        LookAtTargetForCamera.prototype.destroy = function () {
+            /* Destroy component function */
+        };
+        return LookAtTargetForCamera;
+    }(BABYLON.ScriptComponent));
+    PROJECT.LookAtTargetForCamera = LookAtTargetForCamera;
+})(PROJECT || (PROJECT = {}));
+var PROJECT;
+(function (PROJECT) {
+    /**
+    * Babylon Script Component
+    * @class MeshLookAt
+    */
+    var MeshLookAt = /** @class */ (function (_super) {
+        __extends(MeshLookAt, _super);
+        function MeshLookAt() {
+            var _this = _super !== null && _super.apply(this, arguments) || this;
+            _this.target = null;
+            return _this;
+        }
+        // Example: private helloWorld:string = "Hello World";
+        MeshLookAt.prototype.awake = function () {
+            /* Init component function */
+            var camera = this.getProperty("target");
+            if (camera != null) {
+                this.target = BABYLON.Utilities.ParseTransformByID(camera, this.scene);
+            }
+        };
+        MeshLookAt.prototype.start = function () {
+            /* Start render loop function */
+        };
+        MeshLookAt.prototype.update = function () {
+            /* Update render loop function */
+            this.transform.lookAt(this.target.position);
+        };
+        MeshLookAt.prototype.late = function () {
+            /* Late update render loop function */
+        };
+        MeshLookAt.prototype.after = function () {
+            /* After update render loop function */
+        };
+        MeshLookAt.prototype.fixed = function () {
+            /* Fixed update physics step function */
+        };
+        MeshLookAt.prototype.ready = function () {
+            /* Execute when scene is ready function */
+        };
+        MeshLookAt.prototype.destroy = function () {
+            /* Destroy component function */
+        };
+        return MeshLookAt;
+    }(BABYLON.ScriptComponent));
+    PROJECT.MeshLookAt = MeshLookAt;
+})(PROJECT || (PROJECT = {}));
 var BABYLON;
 (function (BABYLON) {
     /**
