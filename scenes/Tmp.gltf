@@ -1225,7 +1225,7 @@
           "directIntensity": 1.0,
           "specularIntensity": 1.0,
           "emissiveIntensity": 1.0,
-          "environmentIntensity": 3.0,
+          "environmentIntensity": 4.0,
           "useExpandedLightmapTexture": false,
           "useEmissiveAsIllumination": false,
           "useLightmapAsShadowmap": true,
@@ -1310,7 +1310,7 @@
           "directIntensity": 1.0,
           "specularIntensity": 1.0,
           "emissiveIntensity": 1.0,
-          "environmentIntensity": 3.0,
+          "environmentIntensity": 4.0,
           "useExpandedLightmapTexture": false,
           "useEmissiveAsIllumination": false,
           "useLightmapAsShadowmap": true,
@@ -1490,7 +1490,7 @@
       "name": "Main Camera",
       "extras": {
         "metadata": {
-          "guid": "f6e3d17c-2b31-4f16-83b8-fb4ab4a01806",
+          "guid": "d28c4733-8443-4370-ae76-715aa073a9de",
           "group": "MainCamera",
           "tags": "MainCamera Layer0",
           "components": [
@@ -1537,7 +1537,7 @@
       "name": "Spinning",
       "extras": {
         "metadata": {
-          "guid": "a237b5c8-b13a-461f-9dde-830602aaddfa",
+          "guid": "1371fbea-4f1d-48e9-b719-9993fa31166f",
           "components": [
             {
               "alias": "script",
@@ -1576,7 +1576,7 @@
       "name": "Sketchfab_model",
       "extras": {
         "metadata": {
-          "guid": "227adb03-2775-40fe-9097-538313c91552"
+          "guid": "30bd67cf-9c44-47d3-8ce0-394e345c8a1d"
         }
       }
     },
@@ -1593,7 +1593,7 @@
       "name": "root",
       "extras": {
         "metadata": {
-          "guid": "7134e634-e0a6-4bda-ba74-5ffa0c23b40a"
+          "guid": "38b8ae43-32c7-4c87-9335-5ab1793f9a88"
         }
       }
     },
@@ -1610,7 +1610,7 @@
       "name": "GLTF_SceneRootNode",
       "extras": {
         "metadata": {
-          "guid": "fe55facd-1303-440d-a64a-6e10d2173d50"
+          "guid": "cd9492dd-0e19-4fea-bf94-f4db8c5c8b6b"
         }
       }
     },
@@ -1644,7 +1644,7 @@
       "name": "root_0",
       "extras": {
         "metadata": {
-          "guid": "b26b2b37-dff9-4e9e-9acc-d60c7be0f3a7"
+          "guid": "abcd7759-406c-4a4f-b5ab-ccae1d63c855"
         }
       }
     },
@@ -1661,7 +1661,7 @@
       "name": "a_low_1",
       "extras": {
         "metadata": {
-          "guid": "e84da88b-a052-436a-a21d-039fd3f647d8"
+          "guid": "214dc6f1-603f-4db6-9408-960e951987de"
         }
       }
     },
@@ -1678,7 +1678,7 @@
       "name": "a_low_2",
       "extras": {
         "metadata": {
-          "guid": "461ddaab-c0c8-433b-bb2b-ef80c392affb"
+          "guid": "452a88d2-0726-4e0e-a4de-a06ef2147691"
         }
       }
     },
@@ -1693,7 +1693,7 @@
       "name": "Object_6",
       "extras": {
         "metadata": {
-          "guid": "7aa5a76a-6d37-4236-8d6f-b4bc8611f745",
+          "guid": "5519a6d7-06eb-43d4-ab55-86d82de625e6",
           "renderer": {
             "castshadows": true,
             "receiveshadows": true,
@@ -1733,7 +1733,7 @@
       "name": "b_low_3",
       "extras": {
         "metadata": {
-          "guid": "d943acc0-cf4d-4ece-8521-3ba4345d9d7d"
+          "guid": "084c9fe7-b99a-4301-8da6-837d543dbae8"
         }
       }
     },
@@ -1750,7 +1750,7 @@
       "name": "b_low_4",
       "extras": {
         "metadata": {
-          "guid": "8ad444fb-5570-48ec-9aa2-4548f1b91b05"
+          "guid": "4097fbc8-1a18-480e-a507-d0feb91f51e9"
         }
       }
     },
@@ -1765,7 +1765,7 @@
       "name": "Object_9",
       "extras": {
         "metadata": {
-          "guid": "65be85d8-4e46-4ef2-954e-c09181be9463",
+          "guid": "b91a624d-7e01-47c9-935a-6dc84d9a89d6",
           "renderer": {
             "castshadows": true,
             "receiveshadows": true,
@@ -1805,7 +1805,7 @@
       "name": "c_low_5",
       "extras": {
         "metadata": {
-          "guid": "f2389219-e6ca-4f57-825d-50181ceeaeb5"
+          "guid": "e1386fc2-050c-4228-9036-2ef020e8ce1e"
         }
       }
     },
@@ -1822,7 +1822,7 @@
       "name": "c_low_6",
       "extras": {
         "metadata": {
-          "guid": "0e8d0424-7458-4a90-ae5a-6217d02434e6"
+          "guid": "a1f002c4-92ea-4d57-b03d-a75a21d0760c"
         }
       }
     },
@@ -1837,7 +1837,7 @@
       "name": "Object_12",
       "extras": {
         "metadata": {
-          "guid": "0f1043f4-6bc4-42b0-a566-dbcf2737f61c",
+          "guid": "34f0df84-e964-4954-a1a5-ac8c5f3b3f2c",
           "renderer": {
             "castshadows": true,
             "receiveshadows": true,
@@ -1877,7 +1877,7 @@
       "name": "d_low_7",
       "extras": {
         "metadata": {
-          "guid": "4b18a6ac-ed1e-4008-a439-8c7f71801bc3"
+          "guid": "e9e2c21f-d7d7-4d0c-9e30-c65025d35773"
         }
       }
     },
@@ -1894,7 +1894,7 @@
       "name": "d_low_8",
       "extras": {
         "metadata": {
-          "guid": "41464ea2-34ef-4de6-911f-0d6ff46f7d69"
+          "guid": "5bd19a5b-a56d-4cff-95f7-e5cbc6266b58"
         }
       }
     },
@@ -1909,7 +1909,7 @@
       "name": "Object_15",
       "extras": {
         "metadata": {
-          "guid": "943762fa-e4e3-4a09-9cae-8665e2bb70fe",
+          "guid": "413cf1af-0064-41c5-a5a8-b8242afd8fe9",
           "renderer": {
             "castshadows": true,
             "receiveshadows": true,
@@ -1949,7 +1949,7 @@
       "name": "e_low_9",
       "extras": {
         "metadata": {
-          "guid": "6b486cc2-e1eb-4260-ae4e-a1f7616a98da"
+          "guid": "35d0c7d7-72a1-48d4-9e85-3d65ea2e9315"
         }
       }
     },
@@ -1966,7 +1966,7 @@
       "name": "e_low_10",
       "extras": {
         "metadata": {
-          "guid": "81ae41bd-f90f-4aa9-90ce-d628890fc8f2"
+          "guid": "1aae60f7-4a71-4fea-b186-173031a71b97"
         }
       }
     },
@@ -1981,7 +1981,7 @@
       "name": "Object_18",
       "extras": {
         "metadata": {
-          "guid": "2ef41b6a-a654-4a35-974b-f3518bff024c",
+          "guid": "510db6fe-0455-4b91-8b37-7b2f66b202d6",
           "renderer": {
             "castshadows": true,
             "receiveshadows": true,
@@ -2021,7 +2021,7 @@
       "name": "f_low_11",
       "extras": {
         "metadata": {
-          "guid": "7c57e1c0-f828-47bb-a6e4-9249a6181992"
+          "guid": "ab436d70-db66-41a5-ba2a-05bc627df961"
         }
       }
     },
@@ -2038,7 +2038,7 @@
       "name": "f_low_12",
       "extras": {
         "metadata": {
-          "guid": "2e8cfdfb-2546-45c4-94d5-aa24355c6aae"
+          "guid": "3f5fe21e-c0d1-44c6-8926-a5030e92c18f"
         }
       }
     },
@@ -2053,7 +2053,7 @@
       "name": "Object_21",
       "extras": {
         "metadata": {
-          "guid": "1b718c3f-5079-4a7c-915e-882eff12ff6a",
+          "guid": "e1f64cf8-37c6-4158-ab94-311bd158baa5",
           "renderer": {
             "castshadows": true,
             "receiveshadows": true,
@@ -2093,7 +2093,7 @@
       "name": "m_low_13",
       "extras": {
         "metadata": {
-          "guid": "a5ebc9e5-4b44-4ec2-9f69-df36e085bd46"
+          "guid": "295b7aa3-778a-4080-b41c-3b52c5da5e36"
         }
       }
     },
@@ -2110,7 +2110,7 @@
       "name": "m_low_14",
       "extras": {
         "metadata": {
-          "guid": "dd4a1506-6772-45a3-a82e-beea80d8afc2"
+          "guid": "09f63ada-4433-4430-a9fd-97a4a30f6d6b"
         }
       }
     },
@@ -2125,7 +2125,7 @@
       "name": "Object_24",
       "extras": {
         "metadata": {
-          "guid": "8dba928a-9d3b-4a9d-a668-0e6f47c5cf35",
+          "guid": "491cb4b3-81f1-4582-b319-9d011f0c378f",
           "renderer": {
             "castshadows": true,
             "receiveshadows": true,
@@ -2165,7 +2165,7 @@
       "name": "n_low_15",
       "extras": {
         "metadata": {
-          "guid": "23f491be-309d-4878-aeaa-540f32da7dcb"
+          "guid": "53da7c1f-1515-4888-bfc7-87f547960122"
         }
       }
     },
@@ -2182,7 +2182,7 @@
       "name": "n_low_16",
       "extras": {
         "metadata": {
-          "guid": "252a3e23-6e29-4d40-9911-33bb2e84b07a"
+          "guid": "1cb7843d-02bf-43d7-aa63-5b8267c6f573"
         }
       }
     },
@@ -2197,7 +2197,7 @@
       "name": "Object_27",
       "extras": {
         "metadata": {
-          "guid": "aa2def46-5945-4642-b138-82660b23315f",
+          "guid": "43199449-7732-40f9-80fc-f7fc3ada9d26",
           "renderer": {
             "castshadows": true,
             "receiveshadows": true,
@@ -2238,7 +2238,7 @@
       "name": "Hotspot",
       "extras": {
         "metadata": {
-          "guid": "28d5cc36-34d7-464e-aef4-5be5664a357e",
+          "guid": "99900b13-9d8e-43fe-a8e3-5c5b999e56f3",
           "renderer": {
             "castshadows": false,
             "receiveshadows": false,
@@ -2288,7 +2288,7 @@
       "name": "Hotspot (1)",
       "extras": {
         "metadata": {
-          "guid": "9753c032-6c33-4141-a3b1-e1b2998d3262",
+          "guid": "ea843271-2f05-4e37-adb8-2e6de5a542bf",
           "renderer": {
             "castshadows": false,
             "receiveshadows": false,
@@ -2338,7 +2338,7 @@
       "name": "Hotspot (2)",
       "extras": {
         "metadata": {
-          "guid": "3dfbb15e-cc66-457f-ba03-a41cdfbd1a2a",
+          "guid": "dcbd1cd8-96d7-4e94-bd02-d60717ddec06",
           "renderer": {
             "castshadows": false,
             "receiveshadows": false,
@@ -2394,7 +2394,7 @@
       "name": "Directional Light",
       "extras": {
         "metadata": {
-          "guid": "0fcf0d71-83e0-46a4-b24d-07aee996d80d",
+          "guid": "c028f123-198f-418f-b3a1-37fbeaca1bbd",
           "components": [
             {
               "alias": "light",
@@ -2481,7 +2481,7 @@
       "name": "Reflection Probe",
       "extras": {
         "metadata": {
-          "guid": "668b77c0-bafa-4641-8ef3-6bd824487254",
+          "guid": "b4aa8398-01cf-4407-8971-be26ab021a81",
           "visible": false,
           "visibility": 0.5
         }

@@ -2931,13 +2931,6 @@ var PROJECT;
             var canvas = document.getElementById("renderCanvas");
             // GUI
             var advancedTexture = BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI("UI");
-            /*var elipse = new BABYLON.GUI.Ellipse();
-            elipse.width = "20px";
-            elipse.height = "20px";
-            elipse.color = "rgba(0.0,0.0,0.0,0.5)";
-            elipse.thickness = 4;
-            //elipse.background = "rgba(0,0,0,0.5)";
-            advancedTexture.addControl(elipse);*/
             var icon = new BABYLON.GUI.Image("logo", "./images/Icons/caret-down-circle.svg");
             icon.alpha = 0.5;
             icon.width = "20px";
