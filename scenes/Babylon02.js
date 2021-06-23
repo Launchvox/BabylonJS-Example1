@@ -2981,9 +2981,13 @@ var PROJECT;
             // Create basic world
             var scene = BABYLON.SceneManager.GetLastCreatedScene();
             var canvas = document.getElementById("renderCanvas");
-            var camera1 = new BABYLON.ArcRotateCamera("Camera", 0, 0, 10, new BABYLON.Vector3(0, 0, 0), scene);
+            var camera1 = new BABYLON.ArcRotateCamera("Camera", this.transform.absolutePosition.x, this.transform.absolutePosition.z, // locatons are not idenical
+            this.transform.absolutePosition.y, new BABYLON.Vector3(0, 0, 0), scene);
             scene.activeCamera = camera1;
             camera1.attachControl(canvas, true);
+            //Always zoom based on natural zoom factor
+            camera1.useNaturalPinchZoom = true;
+            camera1.lowerRadiusLimit = this.getProperty("lowerRadiusLimit");
         };
         OrbitCamera.prototype.destroy = function () {
             /* Destroy component function */
@@ -3203,6 +3207,46 @@ var PROJECT;
         return Test;
     }(BABYLON.ScriptComponent));
     PROJECT.Test = Test;
+})(PROJECT || (PROJECT = {}));
+var PROJECT;
+(function (PROJECT) {
+    /**
+    * Babylon Script Component
+    * @class TestPlayerController
+    */
+    var TestPlayerController = /** @class */ (function (_super) {
+        __extends(TestPlayerController, _super);
+        function TestPlayerController() {
+            return _super !== null && _super.apply(this, arguments) || this;
+        }
+        // Example: private helloWorld:string = "Hello World";
+        TestPlayerController.prototype.awake = function () {
+            /* Init component function */
+        };
+        TestPlayerController.prototype.start = function () {
+            /* Start render loop function */
+        };
+        TestPlayerController.prototype.update = function () {
+            /* Update render loop function */
+        };
+        TestPlayerController.prototype.late = function () {
+            /* Late update render loop function */
+        };
+        TestPlayerController.prototype.after = function () {
+            /* After update render loop function */
+        };
+        TestPlayerController.prototype.fixed = function () {
+            /* Fixed update physics step function */
+        };
+        TestPlayerController.prototype.ready = function () {
+            /* Execute when scene is ready function */
+        };
+        TestPlayerController.prototype.destroy = function () {
+            /* Destroy component function */
+        };
+        return TestPlayerController;
+    }(BABYLON.ScriptComponent));
+    PROJECT.TestPlayerController = TestPlayerController;
 })(PROJECT || (PROJECT = {}));
 var BABYLON;
 (function (BABYLON) {

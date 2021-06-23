@@ -773,6 +773,22 @@ declare module PROJECT {
         protected destroy(): void;
     }
 }
+declare module PROJECT {
+    /**
+    * Babylon Script Component
+    * @class TestPlayerController
+    */
+    class TestPlayerController extends BABYLON.ScriptComponent {
+        protected awake(): void;
+        protected start(): void;
+        protected update(): void;
+        protected late(): void;
+        protected after(): void;
+        protected fixed(): void;
+        protected ready(): void;
+        protected destroy(): void;
+    }
+}
 declare module BABYLON {
     /**
      * Babylon animation state pro class (Unity Style Mechanim Animation System)
