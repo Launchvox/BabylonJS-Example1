@@ -691,6 +691,38 @@ declare module BABYLON {
 declare module PROJECT {
     /**
     * Babylon Script Component
+    * @class Hotspot
+    */
+    class Hotspot extends BABYLON.ScriptComponent {
+        protected awake(): void;
+        protected start(): void;
+        protected update(): void;
+        protected late(): void;
+        protected after(): void;
+        protected fixed(): void;
+        protected ready(): void;
+        protected destroy(): void;
+    }
+}
+declare module PROJECT {
+    /**
+    * Babylon Script Component
+    * @class OrbitCamera
+    */
+    class OrbitCamera extends BABYLON.ScriptComponent {
+        protected awake(): void;
+        protected start(): void;
+        protected update(): void;
+        protected late(): void;
+        protected after(): void;
+        protected fixed(): void;
+        protected ready(): void;
+        protected destroy(): void;
+    }
+}
+declare module PROJECT {
+    /**
+    * Babylon Script Component
     * @class LookAtTargetForCamera
     */
     class LookAtTargetForCamera extends BABYLON.ScriptComponent {
@@ -715,6 +747,22 @@ declare module PROJECT {
     */
     class MeshLookAt extends BABYLON.ScriptComponent {
         target: BABYLON.TransformNode;
+        protected awake(): void;
+        protected start(): void;
+        protected update(): void;
+        protected late(): void;
+        protected after(): void;
+        protected fixed(): void;
+        protected ready(): void;
+        protected destroy(): void;
+    }
+}
+declare module PROJECT {
+    /**
+    * Babylon Script Component
+    * @class Test
+    */
+    class Test extends BABYLON.ScriptComponent {
         protected awake(): void;
         protected start(): void;
         protected update(): void;

@@ -2900,6 +2900,109 @@ var PROJECT;
 (function (PROJECT) {
     /**
     * Babylon Script Component
+    * @class Hotspot
+    */
+    var Hotspot = /** @class */ (function (_super) {
+        __extends(Hotspot, _super);
+        function Hotspot() {
+            return _super !== null && _super.apply(this, arguments) || this;
+        }
+        // Example: private helloWorld:string = "Hello World";
+        Hotspot.prototype.awake = function () {
+            /* Init component function */
+        };
+        Hotspot.prototype.start = function () {
+            /* Start render loop function */
+        };
+        Hotspot.prototype.update = function () {
+            /* Update render loop function */
+        };
+        Hotspot.prototype.late = function () {
+            /* Late update render loop function */
+        };
+        Hotspot.prototype.after = function () {
+            /* After update render loop function */
+        };
+        Hotspot.prototype.fixed = function () {
+            /* Fixed update physics step function */
+        };
+        Hotspot.prototype.ready = function () {
+            /* Execute when scene is ready function */
+            var canvas = document.getElementById("renderCanvas");
+            // GUI
+            var advancedTexture = BABYLON.GUI.AdvancedDynamicTexture.CreateFullscreenUI("UI");
+            /*var elipse = new BABYLON.GUI.Ellipse();
+            elipse.width = "20px";
+            elipse.height = "20px";
+            elipse.color = "rgba(0.0,0.0,0.0,0.5)";
+            elipse.thickness = 4;
+            //elipse.background = "rgba(0,0,0,0.5)";
+            advancedTexture.addControl(elipse);*/
+            var icon = new BABYLON.GUI.Image("logo", "./images/Icons/caret-down-circle.svg");
+            icon.alpha = 0.5;
+            icon.width = "20px";
+            icon.height = "20px";
+            advancedTexture.addControl(icon);
+            icon.linkWithMesh(this.transform);
+        };
+        Hotspot.prototype.destroy = function () {
+            /* Destroy component function */
+        };
+        return Hotspot;
+    }(BABYLON.ScriptComponent));
+    PROJECT.Hotspot = Hotspot;
+})(PROJECT || (PROJECT = {}));
+var PROJECT;
+(function (PROJECT) {
+    /**
+    * Babylon Script Component
+    * @class OrbitCamera
+    */
+    var OrbitCamera = /** @class */ (function (_super) {
+        __extends(OrbitCamera, _super);
+        function OrbitCamera() {
+            return _super !== null && _super.apply(this, arguments) || this;
+        }
+        // Example: private helloWorld:string = "Hello World";
+        OrbitCamera.prototype.awake = function () {
+            /* Init component function */
+        };
+        OrbitCamera.prototype.start = function () {
+            /* Start render loop function */
+        };
+        OrbitCamera.prototype.update = function () {
+            /* Update render loop function */
+        };
+        OrbitCamera.prototype.late = function () {
+            /* Late update render loop function */
+        };
+        OrbitCamera.prototype.after = function () {
+            /* After update render loop function */
+        };
+        OrbitCamera.prototype.fixed = function () {
+            /* Fixed update physics step function */
+        };
+        OrbitCamera.prototype.ready = function () {
+            /* Execute when scene is ready function */
+            var cameraRig = BABYLON.SceneManager.FindSceneCameraRig(this.transform);
+            // Create basic world
+            var scene = BABYLON.SceneManager.GetLastCreatedScene();
+            var canvas = document.getElementById("renderCanvas");
+            var camera1 = new BABYLON.ArcRotateCamera("Camera", 0, 0, 10, new BABYLON.Vector3(0, 0, 0), scene);
+            scene.activeCamera = camera1;
+            camera1.attachControl(canvas, true);
+        };
+        OrbitCamera.prototype.destroy = function () {
+            /* Destroy component function */
+        };
+        return OrbitCamera;
+    }(BABYLON.ScriptComponent));
+    PROJECT.OrbitCamera = OrbitCamera;
+})(PROJECT || (PROJECT = {}));
+var PROJECT;
+(function (PROJECT) {
+    /**
+    * Babylon Script Component
     * @class LookAtTargetForCamera
     */
     var LookAtTargetForCamera = /** @class */ (function (_super) {
@@ -2999,6 +3102,114 @@ var PROJECT;
         return MeshLookAt;
     }(BABYLON.ScriptComponent));
     PROJECT.MeshLookAt = MeshLookAt;
+})(PROJECT || (PROJECT = {}));
+var PROJECT;
+(function (PROJECT) {
+    /**
+    * Babylon Script Component
+    * @class Test
+    */
+    var Test = /** @class */ (function (_super) {
+        __extends(Test, _super);
+        function Test() {
+            return _super !== null && _super.apply(this, arguments) || this;
+        }
+        // Example: private helloWorld:string = "Hello World";
+        Test.prototype.awake = function () {
+            /* Init component function */
+        };
+        Test.prototype.start = function () {
+            /* Start render loop function */
+        };
+        Test.prototype.update = function () {
+            /* Update render loop function */
+        };
+        Test.prototype.late = function () {
+            /* Late update render loop function */
+        };
+        Test.prototype.after = function () {
+            /* After update render loop function */
+        };
+        Test.prototype.fixed = function () {
+            /* Fixed update physics step function */
+        };
+        Test.prototype.ready = function () {
+            /* Execute when scene is ready function */
+            var cameraRig = BABYLON.SceneManager.FindSceneCameraRig(this.transform);
+            // Create basic world
+            var scene = BABYLON.SceneManager.GetLastCreatedScene();
+            var canvas = document.getElementById("renderCanvas");
+            var camera2 = new BABYLON.ArcRotateCamera("Camera", 0, 0, 100, new BABYLON.Vector3(0, 0, 0), scene);
+            var camera1 = new BABYLON.ArcRotateCamera("Camera", 0, 0, 10, new BABYLON.Vector3(0, 0, 0), scene);
+            // This positions the camera
+            camera2.setPosition(new BABYLON.Vector3(0, 0, -10));
+            scene.activeCamera = camera2;
+            camera2.attachControl(canvas, true);
+            var light = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(0, 1, 0), scene);
+            var ground = BABYLON.Mesh.CreateGround("ground1", 6, 6, 2, scene);
+            ground.position.y = -1;
+            scene.createDefaultVRExperience({ floorMeshes: [] });
+            BABYLON.SceneLoader.LoadAssetContainer("https://models.babylonjs.com/", "seagulf.glb", scene, function (container) {
+                // Create the 3D UI manager
+                var manager = new BABYLON.GUI.GUI3DManager(scene);
+                // Add loaded file to the scene
+                container.addAllToScene();
+                // Scale and position the loaded model (First mesh loaded from gltf is the root node)
+                container.meshes[0].scaling.scaleInPlace(0.002);
+                // wrap in bounding box mesh to avoid picking perf hit
+                var gltfMesh = container.meshes[0];
+                var boundingBox = BABYLON.BoundingBoxGizmo.MakeNotPickableAndWrapInBoundingBox(gltfMesh);
+                // Create bounding box gizmo
+                var utilLayer = new BABYLON.UtilityLayerRenderer(scene);
+                utilLayer.utilityLayerScene.autoClearDepthAndStencil = false;
+                var gizmo = new BABYLON.BoundingBoxGizmo(BABYLON.Color3.FromHexString("#0984e3"), utilLayer);
+                gizmo.attachedMesh = boundingBox;
+                // Create behaviors to drag and scale with pointers in VR
+                var sixDofDragBehavior = new BABYLON.SixDofDragBehavior();
+                boundingBox.addBehavior(sixDofDragBehavior);
+                var multiPointerScaleBehavior = new BABYLON.MultiPointerScaleBehavior();
+                boundingBox.addBehavior(multiPointerScaleBehavior);
+                // Create app bar
+                var appBar = new BABYLON.TransformNode("");
+                appBar.scaling.scaleInPlace(0.2);
+                var panel = new BABYLON.GUI.PlanePanel();
+                panel.margin = 0;
+                panel.rows = 1;
+                manager.addControl(panel);
+                panel.linkToTransformNode(appBar);
+                for (var index = 0; index < 2; index++) {
+                    var button = new BABYLON.GUI.HolographicButton("orientation");
+                    panel.addControl(button);
+                    button.text = "Button #" + panel.children.length;
+                    if (index == 0) {
+                        button.onPointerClickObservable.add(function () {
+                            if (gizmo.attachedMesh) {
+                                gizmo.attachedMesh = null;
+                                boundingBox.removeBehavior(sixDofDragBehavior);
+                                boundingBox.removeBehavior(multiPointerScaleBehavior);
+                            }
+                            else {
+                                gizmo.attachedMesh = boundingBox;
+                                boundingBox.addBehavior(sixDofDragBehavior);
+                                boundingBox.addBehavior(multiPointerScaleBehavior);
+                            }
+                        });
+                    }
+                }
+                //attach app bar to bounding box
+                var behavior = new BABYLON.AttachToBoxBehavior(appBar);
+                boundingBox.addBehavior(behavior);
+                setInterval(function () {
+                    scene.activeCamera = (scene.activeCamera == camera1 ? camera2 : camera2);
+                }, 100);
+            });
+        };
+        Test.prototype.destroy = function () {
+            /* Destroy component function */
+        };
+        return Test;
+    }(BABYLON.ScriptComponent));
+    PROJECT.Test = Test;
 })(PROJECT || (PROJECT = {}));
 var BABYLON;
 (function (BABYLON) {
